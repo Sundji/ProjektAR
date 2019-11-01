@@ -48,7 +48,7 @@ public class ObjectController : MonoBehaviour
         if ((body.localScale.x > 0.01 && value<0) || (body.localScale.x < 0.9 && value > 0))
         {
             body.localPosition += new Vector3(0, value/2*Time.deltaTime, 0);
-            body.localScale += new Vector3(value, value*Time.deltaTime, value);
+            body.localScale += new Vector3(value * Time.deltaTime, value*Time.deltaTime, value * Time.deltaTime);
         }
     }
 
