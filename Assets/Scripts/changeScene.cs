@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class changeScene : MonoBehaviour
+public class ChangeScene : MonoBehaviour
 {
-    public string scene;
+
+    public string sceneName;
 	
-	public void goTo() {
-		SceneManager.LoadScene(scene,LoadSceneMode.Single);
+	public void GoTo() {
+		SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
 	}
+
 }

@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
 
-public class quit : MonoBehaviour
+public class Quit : MonoBehaviour
 {
-	public void quitGame() {
+
+	public void QuitGame() {
 		Application.Quit();
 	}
+
 }
