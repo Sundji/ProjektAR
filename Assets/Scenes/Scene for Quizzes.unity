@@ -408,8 +408,415 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 279c3a33930f79f4490c4746a2949bec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DatabaseLessonName: 
-  DatabaseQuestions: []
+  DatabaseLessonName: ProkariotskeStanice
+  DatabaseQuestions:
+  - QuestionText: "\u0160to od navedenog ne spada u carstvo monera?"
+    Answers:
+    - AnswerText: arhebakterije
+      IsCorrect: 0
+    - AnswerText: eubakterije
+      IsCorrect: 0
+    - AnswerText: modrozelene alge
+      IsCorrect: 0
+    - AnswerText: zelene alge
+      IsCorrect: 1
+  - QuestionText: Koji su najjednostavniji prokarioti?
+    Answers:
+    - AnswerText: cijanobakterije
+      IsCorrect: 0
+    - AnswerText: eubakterije
+      IsCorrect: 0
+    - AnswerText: fitoplazme
+      IsCorrect: 0
+    - AnswerText: mikoplazme
+      IsCorrect: 1
+  - QuestionText: "Koja je sposobnost karakteristi\u010Dna za cijanobakterije?"
+    Answers:
+    - AnswerText: fotosinteza
+      IsCorrect: 1
+    - AnswerText: mejoza
+      IsCorrect: 0
+    - AnswerText: mitoza
+      IsCorrect: 0
+    - AnswerText: samoobnavljanje
+      IsCorrect: 0
+  - QuestionText: "Od \u010Dega je gra\u0111ena stani\u010Dna membrana prokariota?"
+    Answers:
+    - AnswerText: "jednoslojni fosfolipid i odgovaraju\u0107e bjelan\u010Devine"
+      IsCorrect: 0
+    - AnswerText: "dvoslojni fosfolipid i odgovaraj\u0107e bjelan\u010Devine"
+      IsCorrect: 1
+    - AnswerText: jednoslojni fosfolipid i murein
+      IsCorrect: 0
+    - AnswerText: dvoslojni fosfolipid i murein
+      IsCorrect: 0
+  - QuestionText: "\u010Cemu slu\u017Ee bi\u010Devi kod prokariota?"
+    Answers:
+    - AnswerText: kretanju
+      IsCorrect: 1
+    - AnswerText: "priljubljivanju uz povr\u0161inu"
+      IsCorrect: 0
+    - AnswerText: "razmno\u017Eavanju"
+      IsCorrect: 0
+    - AnswerText: "za\u0161titi"
+      IsCorrect: 0
+  - QuestionText: Kako se nazivaju nabori na kojima se nalaze enzimi za proizvodnju
+      energije?
+    Answers:
+    - AnswerText: kromosomi
+      IsCorrect: 0
+    - AnswerText: mezosomi
+      IsCorrect: 1
+    - AnswerText: ribosomi
+      IsCorrect: 0
+    - AnswerText: plazmidi
+      IsCorrect: 0
+  - QuestionText: "U kojem su dijelu prokariotske stanice smje\u0161teni ribosomi?"
+    Answers:
+    - AnswerText: u citoplazmi
+      IsCorrect: 1
+    - AnswerText: u nukleoidu
+      IsCorrect: 0
+    - AnswerText: "unutar stani\u010Dne membrane"
+      IsCorrect: 0
+    - AnswerText: "izme\u0111u stani\u010Dne membrane i stani\u010Dne stijenke"
+      IsCorrect: 0
+  - QuestionText: "U kojem se stani\u010Dnom dijelu nalazi genetski materijal prokariotske
+      stanice?"
+    Answers:
+    - AnswerText: u jezgri
+      IsCorrect: 0
+    - AnswerText: u mezosomima
+      IsCorrect: 0
+    - AnswerText: u nukleoidu
+      IsCorrect: 1
+    - AnswerText: u ribosomima
+      IsCorrect: 0
+  - QuestionText: "Kako se razmno\u017Eavaju prokarioti?"
+    Answers:
+    - AnswerText: dvostrukom diobom
+      IsCorrect: 1
+    - AnswerText: mejozom
+      IsCorrect: 0
+    - AnswerText: mitozom
+      IsCorrect: 0
+    - AnswerText: "ne razmno\u017Eavaju se"
+      IsCorrect: 0
+  - QuestionText: "Koja vrsta bakterija razgra\u0111uje organske spojeve uginulih
+      \u017Eivotinja?"
+    Answers:
+    - AnswerText: fotosintetske
+      IsCorrect: 0
+    - AnswerText: kemosintetske
+      IsCorrect: 0
+    - AnswerText: parazitske
+      IsCorrect: 0
+    - AnswerText: saprofitske
+      IsCorrect: 1
+  - QuestionText: Tko je otkrio penicilin?
+    Answers:
+    - AnswerText: Alexander Fleming
+      IsCorrect: 1
+    - AnswerText: Edward Jenner
+      IsCorrect: 0
+    - AnswerText: Louis Pasteur
+      IsCorrect: 0
+    - AnswerText: Robert Koch
+      IsCorrect: 0
+  - QuestionText: "Tko je otkrio uzro\u010Dnike zaraznih bolesti?"
+    Answers:
+    - AnswerText: Carlos Finlay
+      IsCorrect: 0
+    - AnswerText: Louis Pasteur
+      IsCorrect: 0
+    - AnswerText: Robert Koch
+      IsCorrect: 1
+    - AnswerText: Thomas Milton Rivers
+      IsCorrect: 0
+  - QuestionText: "\u0160to zna\u010Di gr\u010Dka rije\u010D bakterion?"
+    Answers:
+    - AnswerText: "\u0161tapi\u0107"
+      IsCorrect: 1
+    - AnswerText: stanica
+      IsCorrect: 0
+    - AnswerText: otrov
+      IsCorrect: 0
+    - AnswerText: mikroorganizam
+      IsCorrect: 0
+  - QuestionText: "Kako se nazivaju bakterije \u0161tapi\u010Dastog oblika?"
+    Answers:
+    - AnswerText: bacili
+      IsCorrect: 1
+    - AnswerText: bakterije L oblika
+      IsCorrect: 0
+    - AnswerText: koki
+      IsCorrect: 0
+    - AnswerText: spirili
+      IsCorrect: 0
+  - QuestionText: Kako se nazivaju bakterije kuglastog oblika?
+    Answers:
+    - AnswerText: bacili
+      IsCorrect: 0
+    - AnswerText: bakterije L oblika
+      IsCorrect: 0
+    - AnswerText: koki
+      IsCorrect: 1
+    - AnswerText: spirili
+      IsCorrect: 0
+  - QuestionText: Kako se nazivaju bakterije zavojitog oblika?
+    Answers:
+    - AnswerText: bacili
+      IsCorrect: 0
+    - AnswerText: bakterije L oblika
+      IsCorrect: 0
+    - AnswerText: koki
+      IsCorrect: 0
+    - AnswerText: spirili
+      IsCorrect: 1
+  - QuestionText: "\u0160to je konjugacija?"
+    Answers:
+    - AnswerText: promjena oblika bakterije
+      IsCorrect: 0
+    - AnswerText: "razmjena genetskog materijala izme\u0111u dvije bakterije"
+      IsCorrect: 1
+    - AnswerText: stvaranje energije u mitohondriju
+      IsCorrect: 0
+    - AnswerText: stvaranje novog genetskog materijala u nukleoidu bakterije
+      IsCorrect: 0
+  - QuestionText: "\u0160to su endospore?"
+    Answers:
+    - AnswerText: "bakterijska jaja\u0161ca"
+      IsCorrect: 0
+    - AnswerText: elementi potrebni za endocitozu
+      IsCorrect: 0
+    - AnswerText: "po\u010Detni stadiji bakterije"
+      IsCorrect: 0
+    - AnswerText: trajni oblici bakterije
+      IsCorrect: 1
+  - QuestionText: U kojim uvjetima nastaju endospore?
+    Answers:
+    - AnswerText: pri diobi
+      IsCorrect: 0
+    - AnswerText: pri konjugaciji
+      IsCorrect: 0
+    - AnswerText: u anaerobnim uvjetima
+      IsCorrect: 0
+    - AnswerText: u nepovoljnim uvjetima
+      IsCorrect: 1
+  - QuestionText: "\u0160to stani\u010Dna membrana osigurava stanici?"
+    Answers:
+    - AnswerText: "\u010Dvrsto\u0107u"
+      IsCorrect: 0
+    - AnswerText: oblik
+      IsCorrect: 0
+    - AnswerText: prianjanje uz podlogu
+      IsCorrect: 0
+    - AnswerText: prijenos hranjivih tvari
+      IsCorrect: 1
+  - QuestionText: "S obzirom na metaboli\u010Dke puteve, bakterije dijelimo na?"
+    Answers:
+    - AnswerText: aerobne i kemosintetske
+      IsCorrect: 0
+    - AnswerText: anaerobne i aerobne
+      IsCorrect: 1
+    - AnswerText: fotosintetske i kemosintetske
+      IsCorrect: 0
+    - AnswerText: saprofitske i parazitske
+      IsCorrect: 0
+  - QuestionText: Koje vitamine proizvodi bakterija Escherichia coli?
+    Answers:
+    - AnswerText: D2 i B9
+      IsCorrect: 0
+    - AnswerText: D2 i B12
+      IsCorrect: 0
+    - AnswerText: K i B9
+      IsCorrect: 0
+    - AnswerText: K i B12
+      IsCorrect: 1
+  - QuestionText: "Prema na\u010Dinu prehrane, bakterije dijelimo na?"
+    Answers:
+    - AnswerText: anaerobne i aerobne
+      IsCorrect: 0
+    - AnswerText: autotrofne i heterotrofne
+      IsCorrect: 1
+    - AnswerText: fotosintetske i kemosintetske
+      IsCorrect: 0
+    - AnswerText: 'saprofitske i parazitske '
+      IsCorrect: 0
+  - QuestionText: "Pomo\u0107u \u010Dega fotosintetske bakterije ve\u017Eu Sun\u010Devu
+      energiju?"
+    Answers:
+    - AnswerText: "pomo\u0107u bakterioklorofila"
+      IsCorrect: 1
+    - AnswerText: "pomo\u0107u bakterioplasta"
+      IsCorrect: 0
+    - AnswerText: "pomo\u0107u klorofila"
+      IsCorrect: 0
+    - AnswerText: "pomo\u0107u kloroplasta"
+      IsCorrect: 0
+  - QuestionText: Kako kemosintetske bakterije dobivaju energiju potrebnu za stvaranje
+      organskih spojeva?
+    Answers:
+    - AnswerText: kemolizom organskih spojeva
+      IsCorrect: 0
+    - AnswerText: Krebsovim procesom
+      IsCorrect: 0
+    - AnswerText: oksidacijom anorganskih spojeva
+      IsCorrect: 1
+    - AnswerText: oksidacijom organskih spojeva
+      IsCorrect: 0
+  - QuestionText: Kako heterotrofne bakterije dobivaju energiju?
+    Answers:
+    - AnswerText: fotosintezom
+      IsCorrect: 0
+    - AnswerText: Krebsovim procesom
+      IsCorrect: 0
+    - AnswerText: oksidacijom anorganskih spojeva
+      IsCorrect: 0
+    - AnswerText: oksidacijom organskih spojeva
+      IsCorrect: 1
+  - QuestionText: Kako dijelimo heterotrofne bakterije?
+    Answers:
+    - AnswerText: na aerobne i anaerobne
+      IsCorrect: 0
+    - AnswerText: na fotosintetske i kemosintetske
+      IsCorrect: 0
+    - AnswerText: na fotosintetske i parazitske
+      IsCorrect: 0
+    - AnswerText: 'na saprofitske i parazitske + '
+      IsCorrect: 1
+  - QuestionText: Koje bolesti uglavnom ne uzrokuju bakterije?
+    Answers:
+    - AnswerText: sifilis
+      IsCorrect: 0
+    - AnswerText: upalu grla
+      IsCorrect: 1
+    - AnswerText: "upalu plu\u0107a"
+      IsCorrect: 0
+    - AnswerText: tuberkulozu
+      IsCorrect: 0
+  - QuestionText: "\u0160to rade saprofitske bakterije?"
+    Answers:
+    - AnswerText: nastanjuju gljive
+      IsCorrect: 0
+    - AnswerText: oksidiraju anorganske spojeve
+      IsCorrect: 0
+    - AnswerText: "parazitiraju u \u017Eivim organizmima"
+      IsCorrect: 0
+    - AnswerText: "razgra\u0111uju organske spojeve uginulih organizama"
+      IsCorrect: 1
+  - QuestionText: "Koliko dugo se endospore mogu odr\u017Eati?"
+    Answers:
+    - AnswerText: "desetlje\u0107ima"
+      IsCorrect: 0
+    - AnswerText: "stolje\u0107ima"
+      IsCorrect: 0
+    - AnswerText: "tisu\u0107ama godina"
+      IsCorrect: 1
+    - AnswerText: milijunima godina
+      IsCorrect: 0
+  - QuestionText: Iz koje vrste algi dobivamo agar?
+    Answers:
+    - AnswerText: crvenih
+      IsCorrect: 1
+    - AnswerText: modrozelenih
+      IsCorrect: 0
+    - AnswerText: zelenih
+      IsCorrect: 0
+    - AnswerText: "sme\u0111ih"
+      IsCorrect: 0
+  - QuestionText: "Mikoplazme su najmanji predstavnici prokariota. Kojih su mikoplazme
+      veli\u010Dina?"
+    Answers:
+    - AnswerText: od 0,1 do 0,2 pikometara
+      IsCorrect: 0
+    - AnswerText: od 0,1 do 0,2 mikrometara
+      IsCorrect: 0
+    - AnswerText: od 0,2 do 0,3 mikrometara
+      IsCorrect: 1
+    - AnswerText: od 0,3 do 0,4 mikrometara
+      IsCorrect: 0
+  - QuestionText: Mikoplazme ne uzrokuju bolesti kojih sustava?
+    Answers:
+    - AnswerText: "di\u0161nog"
+      IsCorrect: 0
+    - AnswerText: "mokra\u0107nog"
+      IsCorrect: 0
+    - AnswerText: spolnog
+      IsCorrect: 0
+    - AnswerText: "\u017Eiv\u010Danog"
+      IsCorrect: 1
+  - QuestionText: "Koji prokarioti su najslo\u017Eeniji?"
+    Answers:
+    - AnswerText: arhebakterije
+      IsCorrect: 0
+    - AnswerText: cijanobakterije
+      IsCorrect: 1
+    - AnswerText: eubakterije
+      IsCorrect: 0
+    - AnswerText: mikoplazme
+      IsCorrect: 0
+  - QuestionText: "\u0160to je cijanobakterijama potrebno za \u017Eivot?"
+    Answers:
+    - AnswerText: svjetlost
+      IsCorrect: 0
+    - AnswerText: svjetlost i mineralne tvari
+      IsCorrect: 0
+    - AnswerText: voda i svjetlost
+      IsCorrect: 0
+    - AnswerText: voda, svjetlost i mineralne tvari
+      IsCorrect: 1
+  - QuestionText: "Gdje se nalazi sluzavi omota\u010D cijanobakterija?"
+    Answers:
+    - AnswerText: "izme\u0111u stani\u010Dne membrane i stani\u010Dne stijenke"
+      IsCorrect: 0
+    - AnswerText: "iznad stani\u010Dne stijenke"
+      IsCorrect: 1
+    - AnswerText: "ne postoji sluzavi omota\u010D kod cijanobakterija"
+      IsCorrect: 0
+    - AnswerText: "s unutarnje strane stani\u010Dne membrane"
+      IsCorrect: 0
+  - QuestionText: "\u0160to se nalazi u tilakoidama?"
+    Answers:
+    - AnswerText: DNA
+      IsCorrect: 0
+    - AnswerText: klorofil
+      IsCorrect: 1
+    - AnswerText: fentanil
+      IsCorrect: 0
+    - AnswerText: "tilakoidna tjele\u0161ca"
+      IsCorrect: 0
+  - QuestionText: "\u0160to je krajnji rezultat fotosinteze?"
+    Answers:
+    - AnswerText: "cijanoficejski \u0161krob"
+      IsCorrect: 1
+    - AnswerText: "du\u0161ik"
+      IsCorrect: 0
+    - AnswerText: fotoni
+      IsCorrect: 0
+    - AnswerText: ugljikov dioksid
+      IsCorrect: 0
+  - QuestionText: "Najstariji fosilni ostatci modrozelenih algi prona\u0111eni su
+      u stijenama starima oko..."
+    Answers:
+    - AnswerText: 2,6 milijardi godina
+      IsCorrect: 0
+    - AnswerText: 2,7 milijardi godina
+      IsCorrect: 1
+    - AnswerText: 3,6 milijardi godina
+      IsCorrect: 0
+    - AnswerText: 3,7 milijardi godina
+      IsCorrect: 0
+  - QuestionText: "\u0160to cijanobakterije mogu uzrokovati masovnim razmno\u017Eavanjem?"
+    Answers:
+    - AnswerText: cvjetanje vode
+      IsCorrect: 1
+    - AnswerText: isparavanje vode
+      IsCorrect: 0
+    - AnswerText: "pro\u010Di\u0161\u0107avanje vode"
+      IsCorrect: 0
+    - AnswerText: "zale\u0111ivanje vode"
+      IsCorrect: 0
 --- !u!4 &852812926
 Transform:
   m_ObjectHideFlags: 0
