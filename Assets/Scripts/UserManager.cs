@@ -29,7 +29,7 @@ public class UserManager : MonoBehaviour
 
     #endregion
 
-    public User User;
+    public UserInformation UserInformation;
 
     private void Awake()
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using UnityEngine;
 
-public class User
+public class UserInformation
 {
 
     public string Username;
