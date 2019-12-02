@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 
@@ -9,6 +9,7 @@ public class QuizManager : MonoBehaviour
 {
 
     private string _path;
+	private int numOfQuestions = 1;
 
     // Obrisati nakon sastanka 12.11.
     public Text Display;
@@ -29,16 +30,19 @@ public class QuizManager : MonoBehaviour
     //Obrisati cijelu metodu nakon sastanka 12.11.
     public void DisplayAndGenerate()
     {
-        List<QuestionData> questions = GenerateQuiz("ProkariotskeStanice", 3);
+		//stvara listu od 3 pitanja	i ponudenih odgovora
+        List<QuestionData> questions = GenerateQuiz("ProkariotskeStanice", numOfQuestions);
         if (Display == null)
             return;
         string text = "";
         foreach (QuestionData question in questions)
         {
+			//za svako pitanje nadi odgovore i zalijepi u string text
             text += question.QuestionText + "\n";
             for (int i = 0; i < question.Answers.Length; i++)
                 text += ("- " + question.Answers[i].AnswerText + "\n");
         }
+		// prikazi sve
         Display.text = text;
     }
 
@@ -50,12 +54,14 @@ public class QuizManager : MonoBehaviour
         {
 
             Debug.Log("Generating quiz...");
-            List<QuestionData> questions = GenerateQuiz("ProkariotskeStanice", 3);
+			//opet stvara listu pitanja
+            List<QuestionData> questions = GenerateQuiz("ProkariotskeStanice", numOfQuestions);
 
             string text = "";
             
             foreach (QuestionData question in questions)
             {
+				//opet traži odgovore
                 text = "";
                 text += question.QuestionText + "\n";
                 for (int i = 0; i < question.Answers.Length; i++)
@@ -82,7 +88,7 @@ public class QuizManager : MonoBehaviour
 
     public List<QuestionData> GenerateQuiz(string lesson, int size)
     {
-
+		
         QuestionDatabase database = GetQuestions(lesson);
         HashSet<int> indexes = new HashSet<int>();
         Vector2Int range = new Vector2Int(0, database.Questions.Length);
