@@ -7,9 +7,26 @@ using UnityEngine.UI; //Obrisati nakon sastanka 12.11.
 
 public class QuizManager : MonoBehaviour
 {
-
+	private static QuizManager _QM;
+	
+	#region QUIZ MANAGER PROPERTY
+	
+	public static QuizManager QM
+	{
+		get
+		{
+			if (_QM ==null)
+				_QM = FindObjectOfType<QuizManager>();
+			return _QM;
+		}
+	}
+	
+	#endregion
+	
     private string _path;
 	private int numOfQuestions = 1;
+	// referenca na izbornik kviza
+	public GameObject LectureButtons;
 
     // Obrisati nakon sastanka 12.11.
     public Text Display;
@@ -24,6 +41,18 @@ public class QuizManager : MonoBehaviour
         #if UNITY_EDITOR
         _path = Application.streamingAssetsPath;
         #endif
+		
+		#region QUIZ MANAGER PROPERTY SET-UP
+		
+		if (_QM == null)
+			_QM = this;
+			
+		if (_QM != this)
+			Destroy(gameObject);
+			
+		DontDestroyOnLoad(gameObject); //nije nužno, ovisi želimo li zadržati isti QuizManager kroz scene
+		
+		#endregion
 
     }
 
@@ -104,5 +133,16 @@ public class QuizManager : MonoBehaviour
         return questions;
 
     }
+	
+	//ugasi canvas sa gumbicima za izbor lekcije
+	public void TurnOffLectureButtons(string lecture){
+		LectureButtons.SetActive(false);
+		
+	}
+		//upali canvas sa gumbicima za izbor lekcije
+	public void TurnOnLectureButtons(string lecture){
+		LectureButtons.SetActive(true);
+		
+	}
 
 }
