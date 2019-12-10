@@ -13127,6 +13127,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4160036950370334}
+  - component: {fileID: -9007128212406197065}
   m_Layer: 0
   m_Name: AnimalCell
   m_TagString: Untagged
@@ -13161,6 +13162,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-9007128212406197065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559809634498624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5e7ac682ee918347931ca1c82c44e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 70
+  scalingSpeed: 3
+  maxVelicina: 5
+  minVelicina: 0.1
 --- !u!1 &1561324010622134
 GameObject:
   m_ObjectHideFlags: 0
