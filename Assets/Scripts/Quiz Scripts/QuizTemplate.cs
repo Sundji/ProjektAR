@@ -27,13 +27,15 @@ public class QuizTemplate : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _questionText = GetComponentInChildren<Text>();
+        //_questionText.text = GameObject.Find("Question").GetComponentInChildren<Text>().text;
+        SetQuestion(GameObject.Find("Question").GetComponentInChildren<Text>().text);
+        Debug.Log(_questionText.text + "-> text");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
 	
 	//jel se mogu kliknut ili ne
@@ -50,4 +52,12 @@ public class QuizTemplate : MonoBehaviour
 	{
 		_questionText.text = question; 
 	}
+
+    public void SetAnswers(GameObject[] Ans)
+    {
+        for(int i = 0; i < Ans.Length; i++)
+        {
+            Answers[i] = Ans[i];
+        }
+    }
 }
