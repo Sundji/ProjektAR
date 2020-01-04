@@ -8,13 +8,17 @@ public class ChangeScene : MonoBehaviour
 {
 
     public string sceneName;
-	public bool quit;
+	public bool quitButton;
+	public bool continueButton;
 	
 	public void GoTo() {
-		if (quit){
+		if (quitButton){
 			Application.Quit();
 		}
-		SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+		else 
+		{
+			SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+		}
 	}
 
 }

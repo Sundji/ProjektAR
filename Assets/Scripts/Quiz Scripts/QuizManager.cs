@@ -25,6 +25,7 @@ public class QuizManager : MonoBehaviour
 	
     private string _path;
 	private int numOfQuestions = 1;
+	
 	// referenca na izbornik kviza
 	public GameObject LectureButtons;
 

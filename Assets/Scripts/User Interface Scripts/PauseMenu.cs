@@ -13,46 +13,30 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		if (Input.GetKeyDown(KeyCode.Escape)){
-	        if (Paused)
-			{
-				Resume();
-			} else 
-			{
-				Pause();
-			}
-		}
     }
 	
+	
+	public void onClick() 
+	{
+		Debug.Log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+		//if (!Paused)
+		//{
+			Pause();
+		//}
+	}
+	
 	public void Resume(){
+		Debug.Log("bbbbbb");
 		pauseMenuUI.SetActive(false);
 		Time.timeScale=1f;
 		Paused = false;
 	}
 	
 	void Pause(){
+		Debug.Log("aCAYAX");
 		pauseMenuUI.SetActive(true);
 		Time.timeScale=0f;
 		Paused = true;
 		
-	}
-	
-	public void LoadScan()
-	{
-		Debug.Log("Loading scanner...");
-	}
-	
-	public void QuitGame()
-	{
-		Debug.Log("Quitting...");
-	}
-	
-	public void NewQuiz()
-	{
-		Debug.Log("Making new quiz...");
-	}
-	public void Options()
-	{
-		Debug.Log("Opening options...");
 	}
 }

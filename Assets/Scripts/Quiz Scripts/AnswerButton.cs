@@ -8,7 +8,7 @@ public class AnswerButton : MonoBehaviour
 	private AnswerData _ans;
 	private Text _buttonText;
 	private bool _isEnabled;
-    public bool correct = false;
+    public bool correct;
     private int _buttonNum;
     private string _buttonName;
     private string[] questions = { "Tko sam ja?", "Tko si ti?", "Tko je on?", "Tko je ona?" };
@@ -20,7 +20,7 @@ public class AnswerButton : MonoBehaviour
     void Start()
     {
         
-
+		correct = false;
         button = this.GetComponent<Button>();
         _buttonName = GameObject.Find(this.name).GetComponentInParent<Button>().name;
         switch (_buttonName)
@@ -50,14 +50,14 @@ public class AnswerButton : MonoBehaviour
     {
         if (GameObject.Find(this.name).GetComponentInParent<QuestionsGenerator>().correctAns[_buttonNum] == true)
         {
-            this.correct = true;
+            correct = true;
             //ColorBlock colorblock = button.GetComponent<Button>().colors;
             //colorblock.pressedColor = Color.green;
             //button.GetComponent<Button>().colors = colorblock;
         }
         else
         {
-            this.correct = false;
+            correct = false;
             //ColorBlock colorblock = button.GetComponent<Button>().colors;
             //colorblock.pressedColor = Color.red;
             //button.GetComponent<Button>().colors = colorblock;
