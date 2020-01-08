@@ -6,10 +6,10 @@ using UnityEngine;
 [CreateAssetMenu()]
 public class AchievementDatabase : ScriptableObject
 {
-	[Reorderable(sortable =false, paginate =false)]
-	public AchievementsArray achievements;
-	[System.Serializable]
-	public class AchievementsArray : ReorderableArray<Achievement> {
+	//[Reorderable(sortable =false, paginate =false)]
+	//public AchievementsArray achievements;
+	//[System.Serializable]
+	//public class AchievementsArray : ReorderableArray<Achievement> {
 	
-	}
+	//}
 }
