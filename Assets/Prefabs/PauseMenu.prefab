@@ -236,7 +236,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Testing Quizzes
-  quit: 0
+  quitButton: 0
+  continueButton: 0
 --- !u!1 &2774129170255156697
 GameObject:
   m_ObjectHideFlags: 0
@@ -695,7 +696,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: 
-  quit: 1
+  quitButton: 0
+  continueButton: 0
 --- !u!1 &2774129170572722528
 GameObject:
   m_ObjectHideFlags: 0
@@ -839,7 +841,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: 
-  quit: 0
+  quitButton: 0
+  continueButton: 0
 --- !u!1 &2774129170681728926
 GameObject:
   m_ObjectHideFlags: 0
@@ -1076,7 +1079,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Testing AR
-  quit: 0
+  quitButton: 0
+  continueButton: 0
 --- !u!1 &2774129170936329475
 GameObject:
   m_ObjectHideFlags: 0
@@ -1187,7 +1191,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2774129170976060558
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1233,7 +1237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.6509804}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

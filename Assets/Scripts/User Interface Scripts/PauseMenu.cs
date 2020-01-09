@@ -18,22 +18,22 @@ public class PauseMenu : MonoBehaviour
 	
 	public void onClick() 
 	{
-		Debug.Log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+		//aa
 		//if (!Paused)
 		//{
 			Pause();
 		//}
 	}
 	
-	public void Resume(){
-		Debug.Log("bbbbbb");
+	public void Resume()
+	{
 		pauseMenuUI.SetActive(false);
 		Time.timeScale=1f;
 		Paused = false;
 	}
 	
-	void Pause(){
-		Debug.Log("aCAYAX");
+	void Pause()
+	{
 		pauseMenuUI.SetActive(true);
 		Time.timeScale=0f;
 		Paused = true;
