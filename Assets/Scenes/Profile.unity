@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9245283, g: 0.29411766, b: 0.2747419, a: 1}
+  m_Color: {r: 0.9607843, g: 0.27450982, b: 0.15686275, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -330,7 +330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9245283, g: 0.29411766, b: 0.2747419, a: 1}
+  m_Color: {r: 0.9607843, g: 0.27450982, b: 0.15686275, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -407,7 +407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9245283, g: 0.29411766, b: 0.2747419, a: 1}
+  m_Color: {r: 0.9607843, g: 0.27450982, b: 0.15686275, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -599,22 +599,22 @@ PrefabInstance:
     - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 43.799988
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 47.5
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
@@ -651,6 +651,26 @@ PrefabInstance:
       propertyPath: pauseMenuUI
       value: 
       objectReference: {fileID: 1291785080}
+    - target: {fileID: 6058406544065882859, guid: 30c6586e87837eb4b80fc33c6ea686c1,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058406544065882859, guid: 30c6586e87837eb4b80fc33c6ea686c1,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058406544065882859, guid: 30c6586e87837eb4b80fc33c6ea686c1,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.39999962
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058406544065882859, guid: 30c6586e87837eb4b80fc33c6ea686c1,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30c6586e87837eb4b80fc33c6ea686c1, type: 3}
 --- !u!1 &812160965
@@ -900,15 +920,15 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2774129170438874686, guid: 14fffe00b1f759646b1d16ba69ba6851,
-        type: 3}
-      propertyPath: quitButton
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2774129170409229548, guid: 14fffe00b1f759646b1d16ba69ba6851,
         type: 3}
       propertyPath: m_Text
       value: Kviz
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774129170438874686, guid: 14fffe00b1f759646b1d16ba69ba6851,
+        type: 3}
+      propertyPath: quitButton
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14fffe00b1f759646b1d16ba69ba6851, type: 3}
@@ -1115,7 +1135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7735849, g: 0.7635115, b: 0.54369885, a: 1}
+  m_Color: {r: 0.8627451, g: 0.8627451, b: 0.7647059, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1369,7 +1389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9245283, g: 0.29411766, b: 0.2747419, a: 1}
+  m_Color: {r: 1, g: 0.27450982, b: 0.15686275, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
