@@ -14,18 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   achievements:
     array:
-    - id: HelloWorld
-      title: HelloWorld
-      description: 
-    - id: Goodbye
-      title: Goodbye
-      description: 
-    - id: sdg
-      title: sdf
-      description: 
-    - id: Tvojamama
-      title: "se tu\u0161ira gola"
-      description: jako neugodno
-    - id: tata
-      title: Tvoja tata ima
-      description: male mitohondrije
+    - id: PrviSken
+      title: Skeniranje prvog modela
+      description: Skeniranje prvog modela
+      unlocked: 0
+    - id: PrviKviz
+      title: Pokrenut prvi kviz
+      description: Pokrenut prvi kviz
+      unlocked: 1
+    - id: SkrozTocan
+      title: "Prvi 100% to\u010Dno rije\u0161en kviz"
+      description: "Prvi 100% to\u010Dno rije\u0161en kviz"
+      unlocked: 0
+    - id: SkrozTocan5
+      title: "Pet 100% to\u010Dno rije\u0161enih kvizova"
+      description: "Pet 100% to\u010Dno rije\u0161enih kvizova"
+      unlocked: 0
+    - id: test
+      title: test
+      description: test
+      unlocked: 0

@@ -18,7 +18,7 @@ public class AchievementManager : MonoBehaviour
 
     private void Start()
     {
-        achivementDropdownController.onValueChanged += HandleAchievementDropdownChanged;
+    //   achivementDropdownController.onValueChanged += HandleAchievementDropdownChanged;
         //LoadAchievementsTable();
     }
 
@@ -27,47 +27,55 @@ public class AchievementManager : MonoBehaviour
         achievementToShow = achievement;
     }
 
-    //public void showNotification()
-    //{
-    //    Achievement achievement=database.achievements[(int)achievementToShow];
-    //    achievementNotificationController.ShowNotification(achievement);
-    //}
-    //[ContextMenu("LoadAchievementsTable()")]
-    //private void LoadAchievementsTable() {
-    //    foreach (AchivementItemController controller in achivementItems) {
-    //        DestroyImmediate(controller.gameObject);
-    //    }
-    //    achivementItems.Clear();
-    //    foreach (Achievement achievement in database.achievements) {
+    public void showNotification(Achievements achievement1)
+    {
+        Achievement achievement=database.achievements[(int)achievement1];
+        achievementNotificationController.ShowNotification(achievement);
+    }
+    [ContextMenu("LoadAchievementsTable()")]
+    private void LoadAchievementsTable() {
+        foreach (AchivementItemController controller in achivementItems) {
+            DestroyImmediate(controller.gameObject);
+        }
+        achivementItems.Clear();
+        foreach (Achievement achievement in database.achievements) {
 
-    //        GameObject obj = Instantiate(achievmentItemPrefab, content);
-    //        AchivementItemController controller = obj.GetComponent<AchivementItemController>();
-    //        bool unlocked = PlayerPrefs.GetInt(achievement.id, 0) == 1;
-    //        controller.unlocked = unlocked;
-    //        controller.achievement = achievement;
-    //        controller.RefereshView();
-    //        achivementItems.Add(controller);
-    //    }
+            GameObject obj = Instantiate(achievmentItemPrefab, content);
+            AchivementItemController controller = obj.GetComponent<AchivementItemController>();
+            bool unlocked = PlayerPrefs.GetInt(achievement.id, 0) == 1;
+            controller.unlocked = unlocked;
+            controller.achievement = achievement;
+            controller.RefereshView();
+            achivementItems.Add(controller);
+        }
     
     }
 
-    //public void UnlockAchievement()
-    //{
-    //    UnlockAchievement(achievementToShow);
-    //}
+    public void UnlockAchievement()
+    {
+        Achievement achievement = database.achievements[(int)achievementToShow];
+        achievementNotificationController.ShowNotification(achievement);
+    }
 
-    //public void UnlockAchievement(Achievements achievement) {
+    public void UnlockAchievement(Achievements achievement1) {
 
-    //    AchivementItemController item = achivementItems[(int)achievement];
-    //    if (item.unlocked) {
-    //        return;
-    //    }
-    //    showNotification();
-    //    PlayerPrefs.SetInt(item.achievement.id, 1);
-    //    item.unlocked = true;
-    //    item.RefereshView();
+        Achievement achievement = database.achievements[(int)achievement1];
+        if (achievement.unlocked) {
+            return;
+        }
+        showNotification(achievement1);
+        PlayerPrefs.SetInt(achievement.id, 1);
+        achievement.unlocked = true;
 
-    //}
+    }
+
+    private void Update()
+    {
+        if(Input.GetMouseButtonDown(0))
+        {
+            UnlockAchievement(Achievements.PrviKviz);
+        }
+    }
 
     //public void lockAllAchievements() {
 
@@ -81,4 +89,4 @@ public class AchievementManager : MonoBehaviour
     //        controller.RefereshView();
     //    }
     //}
-//}
+}

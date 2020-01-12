@@ -1,1 +1,0 @@
-public enum Achievements {HelloWorld,Goodbye,sdg,Tvojamama,tata,}
