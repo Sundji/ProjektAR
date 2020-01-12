@@ -1022,7 +1022,7 @@ GameObject:
   - component: {fileID: 524557823}
   - component: {fileID: 524557822}
   m_Layer: 5
-  m_Name: Desk Image
+  m_Name: DeskImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2627,7 +2627,7 @@ GameObject:
   - component: {fileID: 1253429168}
   - component: {fileID: 1253429167}
   m_Layer: 5
-  m_Name: Notebook Image
+  m_Name: NotebookImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4071,7 +4071,7 @@ PrefabInstance:
     - target: {fileID: 6058406545129572206, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
       propertyPath: m_Name
-      value: Menu Button
+      value: MenuButton
       objectReference: {fileID: 0}
     - target: {fileID: 6058406545129572206, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
