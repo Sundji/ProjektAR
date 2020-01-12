@@ -19,8 +19,15 @@ public class LectureOnClick : MonoBehaviour
     {
         Panel.gameObject.SetActive(false);
         lecture = this.GetComponentInChildren<Text>().text;
-        GetComponentInParent<QuestionsGenerator>().GenerateQuestions();
+        QuestionsGenerator.qAndA = QuestionsGenerator.CheckLecture(lecture);
+        List<string> questions = new List<string> (QuestionsGenerator.qAndA.Keys);
+        QuestionsGenerator.questions = questions;
+        questions = QuestionsGenerator.ShuffleArray(questions);
+        //foreach(string q in questions)
+        //{
+        //    Debug.Log(q + " -> q");
+        //}
+        GameObject.Find("Kviz").GetComponent<QuestionsGenerator>().GenerateQuestions();
         QuestionsGenerator.CheckLecture(lecture);
-        //QuestionsGenerator.ShuffleArray(lecture);
     }
 }
