@@ -1,14 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 
 using UnityEngine;
-
-// U aplikaciji ce postojati samo jedan UserManager koji ce pratiti podatke o korisniku.
-// Kako bi se osiguralo da je samo jedan UserManager u aplikaciji, koristen je singleton
-// pattern - napravljena je static varijabla _UM u kojoj ce se cuvati "pravi" UserManager
-// objekt. U skripti se (Awake funkcija) prvo provjeri je li _UM postavljen na null - ako
-// to vrijedi, ta instanca se postavlja kao _UM. Ako varijabla nije null i trenutna inst.
-// nije jednaka pohranjenoj, onda se trenutna instanca brise kako bi se ocuvao samo jedan.
+using UnityEngine.Events;
 
 public class UserManager : MonoBehaviour
 {
@@ -29,10 +24,17 @@ public class UserManager : MonoBehaviour
 
     #endregion
 
-    public UserInformation UserInformation;
+    public static CustomEvent<UserInformation> AddUserEvent = new CustomEvent<UserInformation>();
+    public static UnityEvent RemoveUserEvent = new UnityEvent();
+
+    private string _userDataFileName = "user.json";
+    private string _userDataFilePath;
+
+    private UserInformation _userInformation;
 
     private void Awake()
     {
+
         #region USER MANAGER PROPERTY SET-UP
 
         if (_UM == null)
@@ -44,6 +46,55 @@ public class UserManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         #endregion
+
+        _userDataFilePath = Application.persistentDataPath + "/" + _userDataFileName;
+        LoadUserInformation();
+
+        AddUserEvent.AddListener(AddUser);
+        RemoveUserEvent.AddListener(RemoveUser);
+
+    }
+
+    private void Start()
+    {
+        if (_userInformation != null)
+            UserInterfaceManagerStartScene.UserExistsEvent.Invoke();
+    }
+
+    private void AddUser(UserInformation information)
+    {
+        _userInformation = information;
+        SaveUserInformation();
+    }
+
+    private void RemoveUser()
+    {
+
+        _userInformation = null;
+
+        if (File.Exists(_userDataFilePath))
+            File.Delete(_userDataFilePath);
+
+    }
+
+    private void LoadUserInformation()
+    {
+
+        if (File.Exists(_userDataFilePath) == false)
+            return;
+
+        _userInformation = JsonUtility.FromJson<UserInformation>(File.ReadAllText(_userDataFilePath));
+
+    }
+
+    private void SaveUserInformation()
+    {
+        File.WriteAllText(_userDataFilePath, JsonUtility.ToJson(_userInformation));
+    }
+
+    public UserInformation GetUserInformation()
+    {
+        return _userInformation;
     }
 
 }

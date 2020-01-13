@@ -9,8 +9,18 @@ public class UserInformation
     public string Username;
     public string Password;
     public string Mail;
+    public string Avatar;
 
-    public int Score;
+    public UserInformation(string username, string password, string mail, string avatar)
+    {
+        Username = username;
+        Password = password;
+        Mail = mail;
+        Avatar = avatar;
+    }
+
+
+    // public int Score;
 
     // public Achievement[] Achievements;
     // public Lesson[] Lessons;
