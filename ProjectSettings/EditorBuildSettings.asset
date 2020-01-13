@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Profile.unity
     guid: fb6a618b85fac544d84bed1da83e374e
+  - enabled: 1
+    path: Assets/Scenes/Scene for Achievements.unity
+    guid: a5c1b039af4c5924398e742158135597
   m_configObjects: {}
