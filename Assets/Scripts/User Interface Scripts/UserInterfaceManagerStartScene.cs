@@ -29,7 +29,7 @@ public class UserInterfaceManagerStartScene : MonoBehaviour
 
     [Header("Sign Up Canvas Elements")]
 
-    // public AvatarManager SignUpAvatar;
+    public AvatarManager SignUpAvatar;
     public InputField SignUpUsernameField;
     public InputField SignUpPasswordField;
     public InputField SignUpMailField;
@@ -149,8 +149,6 @@ public class UserInterfaceManagerStartScene : MonoBehaviour
     public void SignUp()
     {
 
-        return;
-
         string username = SignUpUsernameField.text;
         string password = SignUpPasswordField.text;
 
@@ -170,8 +168,8 @@ public class UserInterfaceManagerStartScene : MonoBehaviour
         if (mailDomain.Length != 2 || mailDomain[0].Length == 0 || mailDomain[1].Length == 0)
             return;
 
-        // UserInformation information = new UserInformation(username, password, mail, SignUpAvatar.GetAvatarName()); 
-        // UserManaer.NewUserEvent.Invoke(information);
+        UserInformation information = new UserInformation(username, password, mail, SignUpAvatar.GetAvatarName()); 
+        UserManager.AddUserEvent.Invoke(information);
 
         SkipToMainScene();
 
