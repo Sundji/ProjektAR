@@ -67,7 +67,7 @@ public class UserManager : MonoBehaviour
         SaveUserInformation();
     }
 
-    private void RemoveUser()
+    public void RemoveUser()
     {
 
         _userInformation = null;

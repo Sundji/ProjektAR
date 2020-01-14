@@ -45,6 +45,8 @@ public class UserInterfaceManagerStartScene : MonoBehaviour
     private void Awake()
     {
 
+        Time.timeScale = 1;
+
         WelcomeCanvas.SetActive(true);
         SignInCanvas.SetActive(false);
         SignUpCanvas.SetActive(false);
