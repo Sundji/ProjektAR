@@ -97,4 +97,10 @@ public class UserManager : MonoBehaviour
         return _userInformation;
     }
 
+    public void AddToScore(int points)
+    {
+        _userInformation.Score += points;
+        SaveUserInformation();
+    }
+
 }

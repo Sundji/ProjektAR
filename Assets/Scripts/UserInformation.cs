@@ -11,12 +11,30 @@ public class UserInformation
     public string Mail;
     public string Avatar;
 
+    public int Score;
+
     public UserInformation(string username, string password, string mail, string avatar)
     {
+
         Username = username;
         Password = password;
         Mail = mail;
         Avatar = avatar;
+
+        Score = 0;
+
+    }
+
+    public UserInformation(string username, string password, string mail, string avatar, int score)
+    {
+
+        Username = username;
+        Password = password;
+        Mail = mail;
+        Avatar = avatar;
+
+        Score = score;
+
     }
 
 
