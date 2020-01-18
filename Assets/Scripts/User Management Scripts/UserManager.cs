@@ -77,6 +77,8 @@ public class UserManager : MonoBehaviour
 
     }
 
+    #region METHODS FOR HANDLING USER INFORMATION
+
     private void LoadUserInformation()
     {
 
@@ -96,6 +98,8 @@ public class UserManager : MonoBehaviour
     {
         return _userInformation;
     }
+
+    #endregion
 
     public void AddToScore(int points)
     {

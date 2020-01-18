@@ -17,13 +17,11 @@ public class ModelBehaviour : MonoBehaviour
     private void OnBecameVisible()
     {
         ModelVisibleEvent.Invoke(Model, Lesson, About);
-        Debug.Log("Model " + Model + " visible...");
     }
 
     private void OnBecameInvisible()
     {
         ModelInvisibleEvent.Invoke();
-        Debug.Log("Model " + Model + " invisible...");
     }
 
 }
