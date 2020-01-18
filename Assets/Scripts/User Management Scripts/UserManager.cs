@@ -30,7 +30,11 @@ public class UserManager : MonoBehaviour
     private string _userDataFileName = "user.json";
     private string _userDataFilePath;
 
+    private string _lessonDataFileName = "lessons.json";
+    private string _lessonDataFilePath;
+
     private UserInformation _userInformation;
+    private Lessons _lessons;
 
     private void Awake()
     {
@@ -50,8 +54,13 @@ public class UserManager : MonoBehaviour
         _userDataFilePath = Application.persistentDataPath + "/" + _userDataFileName;
         LoadUserInformation();
 
+        _lessonDataFilePath = Application.persistentDataPath + "/" + _lessonDataFileName;
+        LoadLessonData();
+
         AddUserEvent.AddListener(AddUser);
         RemoveUserEvent.AddListener(RemoveUser);
+
+        ModelBehaviour.ModelVisibleEvent.AddListener(ModelVisibleEventHandler);
 
     }
 
@@ -61,20 +70,55 @@ public class UserManager : MonoBehaviour
             UserInterfaceManagerStartScene.UserExistsEvent.Invoke();
     }
 
+    private void ModelVisibleEventHandler(string model, string lesson, string about)
+    {
+
+        if (_lessons == null)
+            return;
+
+        _lessons.AddModel(model, lesson);
+        SaveLessonData();
+
+    }
+
     private void AddUser(UserInformation information)
     {
+
         _userInformation = information;
+        _lessons = new Lessons();
+
         SaveUserInformation();
+        SaveLessonData();
+
     }
 
     public void RemoveUser()
     {
 
         _userInformation = null;
+        _lessons = null;
 
         if (File.Exists(_userDataFilePath))
             File.Delete(_userDataFilePath);
 
+        if (File.Exists(_lessonDataFilePath))
+            File.Delete(_lessonDataFilePath);
+
+    }
+
+    private void LoadLessonData()
+    {
+
+        if (File.Exists(_lessonDataFilePath) == false)
+            return;
+
+        _lessons = JsonUtility.FromJson<Lessons>(File.ReadAllText(_lessonDataFilePath));
+
+    }
+
+    private void SaveLessonData()
+    {
+        File.WriteAllText(_lessonDataFilePath, JsonUtility.ToJson(_lessons));
     }
 
     #region METHODS FOR HANDLING USER INFORMATION
