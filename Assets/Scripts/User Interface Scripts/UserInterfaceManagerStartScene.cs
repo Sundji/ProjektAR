@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Networking;
 
 public class UserInterfaceManagerStartScene : MonoBehaviour
 {
@@ -141,10 +142,40 @@ public class UserInterfaceManagerStartScene : MonoBehaviour
 
     public void SignIn()
     {
+        StartCoroutine(LoginPlayer());
+    }
 
-        return;
+    IEnumerator LoginPlayer()
+    {
+        if (DBManager.CheckIfOnline())
+        {
+            WWWForm form = new WWWForm();
+            form.AddField("name", SignInUsernameField.text);
+            form.AddField("password", SignInPasswordField.text);
+            
+            UnityWebRequest www = UnityWebRequest.Post("https://arprojekt.herokuapp.com/login.php", form);
+            yield return www.SendWebRequest();
 
-        // TODO: Write later.
+            if (www.downloadHandler.text[0] == '0')
+            {
+                DBManager.username = SignInUsernameField.text;
+                DBManager.experience = int.Parse(www.downloadHandler.text.Split('\t')[1]);
+                DBManager.avatarname = www.downloadHandler.text.Split('\t')[2];
+                DBManager.email = www.downloadHandler.text.Split('\t')[3];
+                SkipToMainScene();   //changing scene upon successful login
+                Debug.Log("User logged in - Username: " + DBManager.username + " Avatarname: " + DBManager.avatarname + " Experience: " + DBManager.experience + " E-mail: " + DBManager.email);
+            }
+
+            else
+            {
+                Debug.Log("User login failed. Error #" + www.downloadHandler.text);
+            }
+        }
+
+        else
+        {
+            Debug.Log("Not connected to Internet");
+        }
 
     }
 
@@ -173,8 +204,41 @@ public class UserInterfaceManagerStartScene : MonoBehaviour
         UserInformation information = new UserInformation(username, password, mail, SignUpAvatar.GetAvatarName()); 
         UserManager.AddUserEvent.Invoke(information);
 
+        StartCoroutine(Register());
+        
         SkipToMainScene();
 
+    }
+
+    IEnumerator Register()
+    {
+        if (DBManager.CheckIfOnline())
+        {
+            WWWForm form = new WWWForm();
+            form.AddField("name", SignUpUsernameField.text);
+            form.AddField("password", SignUpPasswordField.text);
+            form.AddField("email", SignUpMailField.text);
+            form.AddField("avatarname", SignUpAvatar.GetAvatarName());
+
+            UnityWebRequest www = UnityWebRequest.Post("https://arprojekt.herokuapp.com/register.php", form);
+            yield return www.SendWebRequest();
+
+            if (www.downloadHandler.text == "0")
+            {
+                Debug.Log("User created successfully");
+                SkipToMainScene();   // changing scene upon successful registration
+            }
+
+            else
+            {
+                Debug.Log("User creation failed. Error #" + www.downloadHandler.text);
+            }
+        }
+
+        else
+        {
+            Debug.Log("Not connected to Internet.");
+        }
     }
 
 }

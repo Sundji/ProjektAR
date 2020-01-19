@@ -16,16 +16,26 @@ public class UserProfileDisplay : MonoBehaviour
 
     private void Start()
     {
+        if (DBManager.LoggedIn)
+        {
+            AvatarImage.sprite = Resources.Load<Sprite>(DBManager.avatarname);
+            UsernameText.text = DBManager.username;
+            MailText.text = DBManager.email;
+            //ovdje dodati experience, dohvatit s DBManager.experience
+        }
 
-        if (UserManager.UM)
-            _information = UserManager.UM.GetUserInformation();
+        else
+        {
+            if (UserManager.UM)
+                _information = UserManager.UM.GetUserInformation();
 
-        if (_information == null)
-            Destroy(gameObject);
+            if (_information == null)
+                Destroy(gameObject);
 
-        AvatarImage.sprite = Resources.Load<Sprite>(_information.Avatar);
-        UsernameText.text = _information.Username;
-        MailText.text = _information.Mail;
+            AvatarImage.sprite = Resources.Load<Sprite>(_information.Avatar);
+            UsernameText.text = _information.Username;
+            MailText.text = _information.Mail;
+        }
 
     }
 
