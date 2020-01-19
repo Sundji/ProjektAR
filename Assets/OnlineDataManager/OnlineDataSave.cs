@@ -73,9 +73,9 @@ public class OnlineDataSave : MonoBehaviour
         }
     }
 
-    public void UpdateLeaderboard(string leaderboardID)
+    public void UpdateLeaderboard(string leaderboardID, int score)
     {
-        StartCoroutine(UpdateLeaderboard1(string leaderboardID));
+        StartCoroutine(UpdateLeaderboard1(string leaderboardID, int score));
     }
 
     //available leaderboards by ID (i.e. valid IDs to use):
@@ -83,14 +83,14 @@ public class OnlineDataSave : MonoBehaviour
     //leaderboard2
     //leaderboard3
     //leaderboard4
-    IEnumerator UpdateLeaderboard1(string leaderboardID)
+    IEnumerator UpdateLeaderboard1(string leaderboardID, int score)
     {
         if (DBManager.LoggedIn & DBManager.CheckIfOnline())
         {
            //sending score to a leaderboard
             WWWForm form = new WWWForm();
             form.AddField("name", DBManager.username);
-            form.AddField("score", DBManager.experience);
+            form.AddField("score", score);
             form.AddField("leaderboardID", leaderboardID);          //add identifier as second argument so backend can recognize what table to communicate with
 
             UnityWebRequest www2 = UnityWebRequest.Post("https://arprojekt.herokuapp.com/leaderboards.php", form);
