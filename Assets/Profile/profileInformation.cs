@@ -39,7 +39,7 @@ public class profileInformation : MonoBehaviour
 			{
 				if (Name)
 				{
-		        	//_text = "ime";
+		        	_text = UserManager.UM.GetUserInformation().Username;
 				} else if (Level)
 				{
 					//_text = "35";
@@ -64,7 +64,8 @@ public class profileInformation : MonoBehaviour
 			GetComponent<Text>().text = _text;
 		} else 
 		{
-			//GetComponent<Image>().sprite = 
+			//ptavilno dohvatiti sliku
+			//GetComponent<Image>().sprite = Resources.Load<Sprite>(UserManager.UM.GetUserInformation().avatar)
 		}
 	}
 }
