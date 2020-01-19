@@ -31,7 +31,6 @@ public class OnlineDataSave : MonoBehaviour
                 Debug.Log("Save failed. Error #" + www.downloadHandler.text);
             }
 
-            DBManager.LogOut();
             //UnityEngine.SceneManagement.SceneManager.LoadScene(0);             -----------> open starting screen, or not
         }
 
