@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class QuestionsAndAnswers : MonoBehaviour
 {
@@ -17,4 +18,8 @@ public class QuestionsAndAnswers : MonoBehaviour
     static List<string> ans24 = new List<string> { "10 do 100 mikrometara +", "10 do 100 pikometara ", "5 do 10 mikrometara ", "5 do 10 pikometara " };
     public static List<List<string>> answers1 = new List<List<string>> { ans11, ans12, ans13, ans14 };
     public static List<List<string>> answers2 = new List<List<string>> { ans21, ans22, ans23, ans24 };
+    public static string quizFile1 = @"C:\Users\Simun\Desktop\Projekt iz PP\ProjektAR\Lekcija 1.txt";
+    public static string quizFile2 = @"C:\Users\Simun\Desktop\Projekt iz PP\ProjektAR\Lekcija 2.txt";
+    public static string quizFile3 = @"C:\Users\Simun\Desktop\Projekt iz PP\ProjektAR\Lekcija 3.txt";
+    public static string quizFile4 = @"C:\Users\Simun\Desktop\Projekt iz PP\ProjektAR\Lekcija 4.txt";
 }

@@ -29,7 +29,7 @@ public class QuestionsGenerator : MonoBehaviour
     //string[] ans23 = { "Razdvajanjem genetskog materijala eukariota", "Ulaskom virusa u pretke eukariotske stanice", "Genetskim mutacijama kroz generacije", "Ulaskom prokariota u pretke eukariotske stanice +" };
     //string[] ans24 = { "10 do 100 mikrometara +", "10 do 100 pikometara", "5 do 10 mikrometara", "5 do 10 pikometara" };
     public static IDictionary<string, List<string>> qAndA = new Dictionary<string, List<string>>();
-        List<Text> ansButtons = new List<Text>();
+    List<Text> ansButtons = new List<Text>();
 
 
     public void GenerateQuestions()
@@ -76,9 +76,9 @@ public class QuestionsGenerator : MonoBehaviour
             //}
         }
         questionText.text = questions[cntr % questions.Count];
-        for(int i = 0; i < 4; i++)
+        for (int i = 0; i < 4; i++)
         {
-            if(ansButtons[i].text.Length == 0)
+            if (ansButtons[i].text.Length == 0)
             {
                 ansButtons[i].text = "";
             }
@@ -121,21 +121,21 @@ public class QuestionsGenerator : MonoBehaviour
 
         bool ans = false;
         int ansIndex = 0;
-        for(int i = 0; i < textLines.Length; i++)
+        for (int i = 0; i < textLines.Length; i++)
         {
-            if(textLines[i].EndsWith(" PITANJE"))
+            if (textLines[i].EndsWith(" PITANJE"))
             {
                 ans = true;
                 questions.Add(textLines[i].Substring(textLines[i].IndexOf(".") + 1, textLines[i].Length - textLines[i].IndexOf(".") - 8));
                 answers.Add(new List<string>());
             }
-            else if(ans == true & textLines[i].Length > 0)
+            else if (ans == true & textLines[i].Length > 0)
             {
                 //Debug.Log("A " + ansIndex + " " + textLines[i]);
                 answers[ansIndex].Add(textLines[i]);
                 //ansIter.Add(textLines[i]);
             }
-            else if(textLines[i].Length == 0)
+            else if (textLines[i].Length == 0)
             {
                 if (ans == true)
                 {
@@ -180,7 +180,7 @@ public class QuestionsGenerator : MonoBehaviour
         //    }
         //}
         qAndA.Clear();
-        for(int i = 0; i < questions.Count; i++)
+        for (int i = 0; i < questions.Count; i++)
         {
             qAndA.Add(questions[i], answers[i]);
         }
