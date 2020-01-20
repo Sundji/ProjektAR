@@ -20,7 +20,7 @@ public class LectureOnClick : MonoBehaviour
     {
         Panel.gameObject.SetActive(false);
         lecture = this.GetComponentInChildren<Text>().text;
-        filepath = @"C:\Users\Simun\Desktop\Projekt iz PP\ProjektAR\" + lecture + ".txt";
+        filepath = Application.dataPath + "/QuizQuestions/" + lecture + ".txt";
         QuestionsGenerator.readString(filepath);
         QuestionsGenerator.qAndA = QuestionsGenerator.CheckLecture(lecture);
         //List<string> questions = QuestionsGenerator.questions;

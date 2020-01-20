@@ -33,29 +33,27 @@ public class QuestionsGenerator : MonoBehaviour
         {
             GameObject.Find("Kviz").SetActive(false);
             endgameScreen.SetActive(true);
-            //endgameScreen.GetComponentInChildren<Text>().text = "Score: " + AnswerButton.correctAns + "/" + cntr;
-            if (AnswerButton.correctAns / cntr == 1)
+            Debug.Log(AnswerButton.correctAns + " " + cntr + " " + ((float)AnswerButton.correctAns/(float)cntr));
+            if ((float)AnswerButton.correctAns / (float)cntr == 1)
             {
                 DBManager.AddExperience(AnswerButton.earnedExp);
                 AnswerButton.earnedExp *= 2;
             }
-                
-            else if (AnswerButton.correctAns / cntr >= 0.9)
+            else if (((float)AnswerButton.correctAns / (float)cntr) >= 0.9)
             {
                 DBManager.AddExperience((int)(AnswerButton.earnedExp * 0.5));
                 AnswerButton.earnedExp = (int)(AnswerButton.earnedExp * 1.5);
             }
-            else if (AnswerButton.correctAns / cntr == 1)
+            else if ((float)AnswerButton.correctAns / (float)cntr >= 0.8)
             {
                 DBManager.AddExperience((int)(AnswerButton.earnedExp * 0.3));
                 AnswerButton.earnedExp = (int)(AnswerButton.earnedExp * 1.3);
             }
-            else if (AnswerButton.correctAns / cntr == 1)
+            else if ((float)AnswerButton.correctAns / (float)cntr >= 0.7)
             {
                 DBManager.AddExperience((int)(AnswerButton.earnedExp * 0.1));
                 AnswerButton.earnedExp = (int)(AnswerButton.earnedExp * 1.1);
             }
-            //endgameScreen.GetComponentInChildren<Text>() = "Exp: " + AnswerButton.earnedExp;
             score.text = "Score: " + AnswerButton.correctAns + "/" + cntr;
             experience.text = "Exp: " + AnswerButton.earnedExp;
         }
