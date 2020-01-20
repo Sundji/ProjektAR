@@ -137,6 +137,7 @@ public class UserInterfaceManagerStartScene : MonoBehaviour
 
     public void Exit()
     {
+        DBManager.LogOut();
         Application.Quit();
     }
 
