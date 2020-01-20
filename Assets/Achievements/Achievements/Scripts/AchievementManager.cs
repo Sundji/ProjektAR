@@ -66,6 +66,12 @@ public class AchievementManager : MonoBehaviour
     {
         Achievement achievement = database.achievements[(int)achievementToShow];
         achievementNotificationController.ShowNotification(achievement);
+
+        if (DBManager.LoggedIn) {
+            DBManager.AddExperience(2500);
+            OnlineDataSave saveData = new OnlineDataSave();
+            saveData.CallSavePlayerData();
+        }
     }
 
     public void UnlockAchievement(Achievements achievement1) {
