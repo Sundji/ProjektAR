@@ -68,7 +68,7 @@ public class AchievementManager : MonoBehaviour
         achievementNotificationController.ShowNotification(achievement);
 
         if (DBManager.LoggedIn) {
-            DBManager.AddExperience(2500);
+            DBManager.AddExperience(2000);
             OnlineDataSave saveData = new OnlineDataSave();
             saveData.CallSavePlayerData();
         }
