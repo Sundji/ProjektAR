@@ -22,7 +22,8 @@ public class QuestionsGenerator : MonoBehaviour
     List<Text> ansButtons = new List<Text>();
     public Text experience;
     public Text score;
-    
+    OnlineDataSave saveData = (new GameObject("save1")).AddComponent<OnlineDataSave>();
+
 
     private void Start()
     {
@@ -79,9 +80,11 @@ public class QuestionsGenerator : MonoBehaviour
             if (DBManager.LoggedIn)
             {
                 DBManager.AddExperience((int)AnswerButton.earnedExp);
-                OnlineDataSave saveData = new OnlineDataSave();
+                OnlineDataSave saveData = (new GameObject("save1")).AddComponent<OnlineDataSave>();
                 saveData.CallSavePlayerData();
                 saveData.UpdateLeaderboard(leaderboardID, (int)AnswerButton.correctAns);
+                Destroy(gameObject);
+                          
             }
 
             score.text = "Score: " + AnswerButton.correctAns + "/" + cntr;
