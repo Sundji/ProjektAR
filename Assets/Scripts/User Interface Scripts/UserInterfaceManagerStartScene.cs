@@ -55,7 +55,7 @@ public class UserInterfaceManagerStartScene : MonoBehaviour
         _effectAnimator = Effect.GetComponent<Animator>();
         _timer = WelcomeCanvasDisplayTime;
 
-        UserExistsEvent.AddListener(SetSkipToMainScene);
+        // UserExistsEvent.AddListener(SetSkipToMainScene);
 
     }
 
@@ -116,7 +116,7 @@ public class UserInterfaceManagerStartScene : MonoBehaviour
         _skip = true;
     }
 
-    private void SkipToMainScene()
+    public void SkipToMainScene()
     {
         SceneManager.LoadScene(1);
     }
