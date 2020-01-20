@@ -37,8 +37,8 @@ public class UserProfileDisplay : MonoBehaviour
                 Destroy(gameObject);
 
             AvatarImage.sprite = Resources.Load<Sprite>(_information.Avatar);
-            UsernameText.text = _information.Username;
-            MailText.text = _information.Mail;
+            UsernameText.text = "Unavailable when not logged in";
+            MailText.text = "Unavailable when not logged in";
             ExperienceText.text = "Unavailable when not logged in";
             LevelText.text = "Unavailable when not logged in";
         }
@@ -47,7 +47,7 @@ public class UserProfileDisplay : MonoBehaviour
 
     public void SignOut()
     {
-        UserManager.UM.RemoveUser();
+        DBManager.LogOut();
         SceneManager.LoadScene(0);
     }
 
