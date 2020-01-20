@@ -44,9 +44,9 @@ public static class DBManager
         return !(HtmlText == "");
     }
 
-    public static void AddExperience(int experience)
+    public static void AddExperience(int exp)
     {
-       DBManager.experience = DBManager.experience + experience;
+       DBManager.experience = DBManager.experience + exp;
     }
 
     public static int GetExperience()

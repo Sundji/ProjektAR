@@ -78,10 +78,10 @@ public class QuestionsGenerator : MonoBehaviour
 
             if (DBManager.LoggedIn)
             {
-                DBManager.AddExperience(AnswerButton.earnedExp);
+                DBManager.AddExperience((int)AnswerButton.earnedExp);
                 OnlineDataSave saveData = new OnlineDataSave();
                 saveData.CallSavePlayerData();
-                saveData.UpdateLeaderboard(leaderboardID, AnswerButton.correctAns);
+                saveData.UpdateLeaderboard(leaderboardID, (int)AnswerButton.correctAns);
             }
 
             score.text = "Score: " + AnswerButton.correctAns + "/" + cntr;
