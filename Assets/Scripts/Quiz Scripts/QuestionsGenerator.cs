@@ -22,6 +22,7 @@ public class QuestionsGenerator : MonoBehaviour
     List<Text> ansButtons = new List<Text>();
     public Text experience;
     public Text score;
+    
 
     private void Start()
     {
@@ -29,33 +30,64 @@ public class QuestionsGenerator : MonoBehaviour
     }
     public void GenerateQuestions()
     {
-        if(cntr >= 10)
+        if (cntr >= 10)
         {
             GameObject.Find("Kviz").SetActive(false);
             endgameScreen.SetActive(true);
-            Debug.Log(AnswerButton.correctAns + " " + cntr + " " + ((float)AnswerButton.correctAns/(float)cntr));
+            Debug.Log(AnswerButton.correctAns + " " + cntr + " " + ((float)AnswerButton.correctAns / (float)cntr));
             if ((float)AnswerButton.correctAns / (float)cntr == 1)
             {
-                DBManager.AddExperience(AnswerButton.earnedExp);
                 AnswerButton.earnedExp *= 2;
             }
             else if (((float)AnswerButton.correctAns / (float)cntr) >= 0.9)
             {
-                DBManager.AddExperience((int)(AnswerButton.earnedExp * 0.5));
                 AnswerButton.earnedExp = (int)(AnswerButton.earnedExp * 1.5);
             }
             else if ((float)AnswerButton.correctAns / (float)cntr >= 0.8)
             {
-                DBManager.AddExperience((int)(AnswerButton.earnedExp * 0.3));
                 AnswerButton.earnedExp = (int)(AnswerButton.earnedExp * 1.3);
             }
             else if ((float)AnswerButton.correctAns / (float)cntr >= 0.7)
             {
-                DBManager.AddExperience((int)(AnswerButton.earnedExp * 0.1));
                 AnswerButton.earnedExp = (int)(AnswerButton.earnedExp * 1.1);
             }
+
+            string lecturename = LectureOnClick.lecture;
+            string leaderboardID = "";
+
+            if (lecturename.Equals("Lekcija 1"))
+            {
+                leaderboardID = "leaderboard1";
+            }
+            else if (lecturename.Equals("Lekcija 2"))
+            {
+                leaderboardID = "leaderboard2";
+            }
+            else if (lecturename.Equals("Lekcija 3"))
+            {
+                leaderboardID = "leaderboard3";
+            }
+            else if (lecturename.Equals("Lekcija 4"))
+            {
+                leaderboardID = "leaderboard4";
+            }
+            else
+            {
+                Debug.Log("No leaderboard for that lection");
+            }
+
+            if (DBManager.LoggedIn)
+            {
+                DBManager.AddExperience(AnswerButton.earnedExp);
+                OnlineDataSave saveData = new OnlineDataSave();
+                saveData.CallSavePlayerData();
+                saveData.UpdateLeaderboard(leaderboardID, AnswerButton.correctAns);
+            }
+
             score.text = "Score: " + AnswerButton.correctAns + "/" + cntr;
             experience.text = "Exp: " + AnswerButton.earnedExp;
+
+            
         }
         //foreach (string q in questions)
         //{

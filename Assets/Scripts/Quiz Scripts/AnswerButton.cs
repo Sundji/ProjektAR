@@ -86,7 +86,6 @@ public class AnswerButton : MonoBehaviour
         if (this.correct == true)
         {
             Debug.Log("Correct!");
-            DBManager.AddExperience(100);
             earnedExp += 100;
             correctAns++;
             score++;
