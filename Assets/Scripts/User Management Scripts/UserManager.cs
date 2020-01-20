@@ -57,8 +57,11 @@ public class UserManager : MonoBehaviour
         _lessonDataFilePath = Application.persistentDataPath + "/" + _lessonDataFileName;
         LoadLessonData();
 
-        AddUserEvent.AddListener(AddUser);
-        RemoveUserEvent.AddListener(RemoveUser);
+        // AddUserEvent.AddListener(AddUser);
+        // RemoveUserEvent.AddListener(RemoveUser);
+
+        if (_userInformation == null)
+            AddUser(new UserInformation("local", "local", "local", "Unknown"));
 
         ModelBehaviour.ModelVisibleEvent.AddListener(ModelVisibleEventHandler);
 

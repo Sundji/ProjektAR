@@ -14,6 +14,8 @@ public class UserProfileDisplay : MonoBehaviour
     public Text ExperienceText;
     public Text LevelText;
 
+    public GameObject SignOutButton;
+
     private UserInformation _information;
 
     private void Start()
@@ -30,6 +32,9 @@ public class UserProfileDisplay : MonoBehaviour
 
         else
         {
+
+            SignOutButton.SetActive(false);
+
             if (UserManager.UM)
                 _information = UserManager.UM.GetUserInformation();
 
@@ -41,6 +46,7 @@ public class UserProfileDisplay : MonoBehaviour
             MailText.text = "Unavailable when not logged in";
             ExperienceText.text = "Unavailable when not logged in";
             LevelText.text = "Unavailable when not logged in";
+
         }
 
     }
