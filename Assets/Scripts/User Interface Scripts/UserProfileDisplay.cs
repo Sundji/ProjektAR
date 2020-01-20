@@ -11,6 +11,8 @@ public class UserProfileDisplay : MonoBehaviour
     public Image AvatarImage;
     public Text UsernameText;
     public Text MailText;
+    public Text ExperienceText;
+    public Text LevelText;
 
     private UserInformation _information;
 
@@ -21,7 +23,9 @@ public class UserProfileDisplay : MonoBehaviour
             AvatarImage.sprite = Resources.Load<Sprite>(DBManager.avatarname);
             UsernameText.text = DBManager.username;
             MailText.text = DBManager.email;
-            //ovdje dodati experience, dohvatit s DBManager.experience
+            ExperienceText.text = (DBManager.GetExperience()).ToString();
+            LevelText.text = (LevelController.DetermineLevel()).ToString();
+
         }
 
         else
@@ -33,15 +37,17 @@ public class UserProfileDisplay : MonoBehaviour
                 Destroy(gameObject);
 
             AvatarImage.sprite = Resources.Load<Sprite>(_information.Avatar);
-            UsernameText.text = _information.Username;
-            MailText.text = _information.Mail;
+            UsernameText.text = "Unavailable when not logged in";
+            MailText.text = "Unavailable when not logged in";
+            ExperienceText.text = "Unavailable when not logged in";
+            LevelText.text = "Unavailable when not logged in";
         }
 
     }
 
     public void SignOut()
     {
-        UserManager.UM.RemoveUser();
+        DBManager.LogOut();
         SceneManager.LoadScene(0);
     }
 

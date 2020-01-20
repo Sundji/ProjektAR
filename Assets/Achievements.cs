@@ -1,1 +1,1 @@
-public enum Achievements {PrviSken,PrviKviz,SkrozTocan,SkrozTocan5,test,}
+public enum Achievements {PrviSken,PrviKviz,SkrozTocan,SkrozTocan5,Skeniranih5,test,}
