@@ -11,15 +11,26 @@ public class AchievementManager : MonoBehaviour
     public Achievements achievementToShow;
     public GameObject achievmentItemPrefab;
     public Transform content;
-    [SerializeField][HideInInspector]
+    [SerializeField] [HideInInspector]
     private List<AchivementItemController> achivementItems;
 
     public AchivementDropdownController achivementDropdownController;
 
     private void Start()
     {
-    //   achivementDropdownController.onValueChanged += HandleAchievementDropdownChanged;
+        //   achivementDropdownController.onValueChanged += HandleAchievementDropdownChanged;
         //LoadAchievementsTable();
+        ModelBehaviour.ModelVisibleEvent.AddListener(modelPrikazan);
+    }
+
+    public void modelPrikazan(string model, string lesson, string text)
+    {
+        int brojModela = PlayerPrefs.GetInt("BrojUcitanihModela", 0);
+
+        if (brojModela == 0)
+            UnlockAchievement(Achievements.PrviSken);
+        else if (brojModela == 4)
+            UnlockAchievement(Achievements.Skeniranih5);
     }
 
     private void HandleAchievementDropdownChanged(Achievements achievement)
