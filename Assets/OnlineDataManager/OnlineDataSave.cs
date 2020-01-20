@@ -75,7 +75,7 @@ public class OnlineDataSave : MonoBehaviour
 
     public void UpdateLeaderboard(string leaderboardID, int score)
     {
-        //StartCoroutine(UpdateLeaderboard1(string leaderboardID, int score));
+        StartCoroutine(UpdateLeaderboard1(leaderboardID, score));
     }
 
     //available leaderboards by ID (i.e. valid IDs to use):
