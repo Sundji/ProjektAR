@@ -18,7 +18,7 @@ public class OnlineDataSave : MonoBehaviour
             form.AddField("name", DBManager.username);
             form.AddField("experience", DBManager.experience);
 
-            UnityWebRequest www = UnityWebRequest.Post("https://arprojekt.herokuapp.com/savedata.php", form);
+            UnityWebRequest www = UnityWebRequest.Post("http://161.53.19.203/arprojekt/savedata.php", form);
             yield return www.SendWebRequest();
 
             if (www.downloadHandler.text == "0")
@@ -53,7 +53,7 @@ public class OnlineDataSave : MonoBehaviour
             form.AddField("name", DBManager.username);
             form.AddField("avatarname", DBManager.avatarname);
 
-            UnityWebRequest www = UnityWebRequest.Post("https://arprojekt.herokuapp.com/saveavatarname.php", form);
+            UnityWebRequest www = UnityWebRequest.Post("http://161.53.19.203/arprojekt/saveavatarname.php", form);
             yield return www.SendWebRequest();
 
             if (www.downloadHandler.text == "0")
@@ -93,7 +93,7 @@ public class OnlineDataSave : MonoBehaviour
             form.AddField("score", score);
             form.AddField("leaderboardID", leaderboardID);          //add identifier as second argument so backend can recognize what table to communicate with
 
-            UnityWebRequest www2 = UnityWebRequest.Post("https://arprojekt.herokuapp.com/leaderboards.php", form);
+            UnityWebRequest www2 = UnityWebRequest.Post("http://161.53.19.203/arprojekt/leaderboards.php", form);
             yield return www2.SendWebRequest();
 
             if (www2.downloadHandler.text == "0")

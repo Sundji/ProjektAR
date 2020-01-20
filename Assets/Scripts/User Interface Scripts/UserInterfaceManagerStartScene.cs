@@ -153,7 +153,7 @@ public class UserInterfaceManagerStartScene : MonoBehaviour
             form.AddField("name", SignInUsernameField.text);
             form.AddField("password", SignInPasswordField.text);
             
-            UnityWebRequest www = UnityWebRequest.Post("https://arprojekt.herokuapp.com/login.php", form);
+            UnityWebRequest www = UnityWebRequest.Post("http://161.53.19.203/arprojekt/login.php", form);
             yield return www.SendWebRequest();
 
             if (www.downloadHandler.text[0] == '0')
@@ -220,7 +220,7 @@ public class UserInterfaceManagerStartScene : MonoBehaviour
             form.AddField("email", SignUpMailField.text);
             form.AddField("avatarname", SignUpAvatar.GetAvatarName());
 
-            UnityWebRequest www = UnityWebRequest.Post("https://arprojekt.herokuapp.com/register.php", form);
+            UnityWebRequest www = UnityWebRequest.Post("http://161.53.19.203/arprojekt/register.php", form);
             yield return www.SendWebRequest();
 
             if (www.downloadHandler.text == "0")
