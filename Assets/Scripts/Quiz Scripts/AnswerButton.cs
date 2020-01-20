@@ -12,6 +12,10 @@ public class AnswerButton : MonoBehaviour
     private int _buttonNum;
     private string _buttonName;
     private string[] questions = { "Tko sam ja?", "Tko si ti?", "Tko je on?", "Tko je ona?" };
+    public static int earnedExp = 0;
+    public static int correctAns = 0;
+    public static int falseAns = 0;
+    public static int score = 0;
 
 
     //referenca gumba za odgovor
@@ -19,7 +23,10 @@ public class AnswerButton : MonoBehaviour
 
     void Start()
     {
-
+        correctAns = 0;
+        falseAns = 0;
+        score = 0;
+        earnedExp = 0;
         button = this.GetComponent<Button>();
         _buttonName = GameObject.Find(this.name).GetComponentInParent<Button>().name;
         switch (_buttonName)
@@ -79,11 +86,16 @@ public class AnswerButton : MonoBehaviour
         if (this.correct == true)
         {
             Debug.Log("Correct!");
+            DBManager.AddExperience(100);
+            earnedExp += 100;
+            correctAns++;
+            score++;
 
         }
         else
         {
             Debug.Log("False");
+            falseAns++;
 
         }
         //GetComponentInParent<QuestionsGenerator>().GenerateQuestions();

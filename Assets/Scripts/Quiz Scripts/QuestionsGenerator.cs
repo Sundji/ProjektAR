@@ -13,27 +13,52 @@ public class QuestionsGenerator : MonoBehaviour
     int cntr = 0;
     public static List<List<string>> answers = new List<List<string>>();
     public int answersCount;
+    public GameObject endgameScreen;
     public bool[] correctAns = { false, false, false, false };
     public string[] currAnswers = new string[4];
     public string currQuestion;
-    //public static string[] questions1 = { "Tko je otkrio penicilin?", "Tko je otkrio uzročnike zaraznih bolesti?", "Što znači grč. bakterion?", "Koju veličinu bakterijska stanica ne prelazi?" };
-    //public static string[] questions2 = { "Prije približno koliko milijardi godina su se razvili eukarioti?", "Kako se objašnjava postanak energetski značajnih organela kod eukariota?",
-    //"Kako su organeli kod eukariota nastali prema endosimbiontskoj teoriji?", "Koje veličine u prosjeku mogu biti eukarioti?" };
     public static List<string> questions;
-    //string[] ans11 = { "Alexander Fleming +", "Louis Pasteur", "Robert Koch", "Edward Jenner" };
-    //string[] ans12 = { "Louis Pasteur", "Robert Koch +", "Thomas Milton Rivers", "Carlos Finlay" };
-    //string[] ans13 = { "Štapić +", "Stanica", "Otrov", "Mikroorganizam" };
-    //string[] ans14 = { "10 pikometara", "11 mikrometara +", "5 mikrometara", "600 pikometara" };
-    //string[] ans21 = { "3,7", "2,7 +", "3,1", "4,6" };
-    //string[] ans22 = { "Endosimbiontskom teorijom +", "Teorijom evolucije", "Abiogenezom", "Britten-Davidsonovim modelom" };
-    //string[] ans23 = { "Razdvajanjem genetskog materijala eukariota", "Ulaskom virusa u pretke eukariotske stanice", "Genetskim mutacijama kroz generacije", "Ulaskom prokariota u pretke eukariotske stanice +" };
-    //string[] ans24 = { "10 do 100 mikrometara +", "10 do 100 pikometara", "5 do 10 mikrometara", "5 do 10 pikometara" };
     public static IDictionary<string, List<string>> qAndA = new Dictionary<string, List<string>>();
     List<Text> ansButtons = new List<Text>();
+    public Text experience;
+    public Text score;
 
-
+    private void Start()
+    {
+        GameObject.Find("Rezultati").SetActive(false);
+    }
     public void GenerateQuestions()
     {
+        if(cntr >= 10)
+        {
+            GameObject.Find("Kviz").SetActive(false);
+            endgameScreen.SetActive(true);
+            //endgameScreen.GetComponentInChildren<Text>().text = "Score: " + AnswerButton.correctAns + "/" + cntr;
+            if (AnswerButton.correctAns / cntr == 1)
+            {
+                DBManager.AddExperience(AnswerButton.earnedExp);
+                AnswerButton.earnedExp *= 2;
+            }
+                
+            else if (AnswerButton.correctAns / cntr >= 0.9)
+            {
+                DBManager.AddExperience((int)(AnswerButton.earnedExp * 0.5));
+                AnswerButton.earnedExp = (int)(AnswerButton.earnedExp * 1.5);
+            }
+            else if (AnswerButton.correctAns / cntr == 1)
+            {
+                DBManager.AddExperience((int)(AnswerButton.earnedExp * 0.3));
+                AnswerButton.earnedExp = (int)(AnswerButton.earnedExp * 1.3);
+            }
+            else if (AnswerButton.correctAns / cntr == 1)
+            {
+                DBManager.AddExperience((int)(AnswerButton.earnedExp * 0.1));
+                AnswerButton.earnedExp = (int)(AnswerButton.earnedExp * 1.1);
+            }
+            //endgameScreen.GetComponentInChildren<Text>() = "Exp: " + AnswerButton.earnedExp;
+            score.text = "Score: " + AnswerButton.correctAns + "/" + cntr;
+            experience.text = "Exp: " + AnswerButton.earnedExp;
+        }
         //foreach (string q in questions)
         //{
         //    Debug.Log(q + " -> q");
