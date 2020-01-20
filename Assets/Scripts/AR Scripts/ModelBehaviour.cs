@@ -17,6 +17,10 @@ public class ModelBehaviour : MonoBehaviour
     private void OnBecameVisible()
     {
         ModelVisibleEvent.Invoke(Model, Lesson, About);
+        if (DBManager.LoggedIn)
+        {
+            DBManager.AddExperience(150);
+        }
     }
 
     private void OnBecameInvisible()
