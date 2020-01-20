@@ -15,7 +15,7 @@ public static class LevelController
     {
         for (int i = 0; i < levelReqs.Length; i++)
         {
-            if (experience > levelReqs[i] & experience < levelReqs[i + 1])
+            if (experience >= levelReqs[i] & experience < levelReqs[i + 1])
             {
                 return i + 1;
             }
