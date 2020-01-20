@@ -49,4 +49,9 @@ public static class DBManager
        DBManager.experience = DBManager.experience + experience;
     }
 
+    public static int GetExperience()
+    {
+        return DBManager.experience;
+    }
+
 }

@@ -23,7 +23,7 @@ public class UserProfileDisplay : MonoBehaviour
             AvatarImage.sprite = Resources.Load<Sprite>(DBManager.avatarname);
             UsernameText.text = DBManager.username;
             MailText.text = DBManager.email;
-            ExperienceText.text = (DBManager.experience).ToString();
+            ExperienceText.text = (DBManager.GetExperience()).ToString();
             LevelText.text = (LevelController.DetermineLevel()).ToString();
 
         }
