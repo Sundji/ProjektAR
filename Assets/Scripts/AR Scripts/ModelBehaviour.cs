@@ -20,6 +20,9 @@ public class ModelBehaviour : MonoBehaviour
         if (DBManager.LoggedIn)
         {
             DBManager.AddExperience(150);
+            OnlineDataSave saveData = (new GameObject("save3")).AddComponent<OnlineDataSave>();
+            saveData.CallSavePlayerData();
+            Destroy(gameObject);
         }
     }
 
