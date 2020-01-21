@@ -21,7 +21,7 @@ MonoBehaviour:
     - id: PrviKviz
       title: Pokrenut prvi kviz
       description: Pokrenut prvi kviz
-      unlocked: 0
+      unlocked: 1
     - id: SkrozTocan
       title: "Prvi 100% to\u010Dno rije\u0161en kviz"
       description: "Prvi 100% to\u010Dno rije\u0161en kviz"
