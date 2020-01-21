@@ -240,7 +240,11 @@ public class QuestionsGenerator : MonoBehaviour
         qAndA.Clear();
         for (int i = 0; i < questions.Count; i++)
         {
-            qAndA.Add(questions[i], answers[i]);
+            if(!qAndA.ContainsKey(questions[i]))
+            {
+                qAndA.Add(questions[i], answers[i]);
+            }
+            
         }
 
         //if (lecture == "Lekcija 1")
