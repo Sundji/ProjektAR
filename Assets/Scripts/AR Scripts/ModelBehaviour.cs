@@ -22,7 +22,7 @@ public class ModelBehaviour : MonoBehaviour
             DBManager.AddExperience(150);
             OnlineDataSave saveData = (new GameObject("save3")).AddComponent<OnlineDataSave>();
             saveData.CallSavePlayerData();
-            Destroy(gameObject);
+            Destroy(saveData.gameObject);
         }
     }
 
