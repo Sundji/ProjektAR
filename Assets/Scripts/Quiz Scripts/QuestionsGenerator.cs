@@ -83,7 +83,7 @@ public class QuestionsGenerator : MonoBehaviour
                 OnlineDataSave saveData = (new GameObject("save1")).AddComponent<OnlineDataSave>();
                 saveData.CallSavePlayerData();
                 saveData.UpdateLeaderboard(leaderboardID, (int)AnswerButton.correctAns);
-                Destroy(gameObject);
+                Destroy(saveData.gameObject);
                           
             }
 

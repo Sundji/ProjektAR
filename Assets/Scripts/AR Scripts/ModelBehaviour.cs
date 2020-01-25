@@ -19,7 +19,10 @@ public class ModelBehaviour : MonoBehaviour
         ModelVisibleEvent.Invoke(Model, Lesson, About);
         if (DBManager.LoggedIn)
         {
-            DBManager.AddExperience(150);
+            DBManager.AddExperience(60);
+            OnlineDataSave saveData = (new GameObject("save3")).AddComponent<OnlineDataSave>();
+            saveData.CallSavePlayerData();
+            Destroy(saveData.gameObject);
         }
     }
 

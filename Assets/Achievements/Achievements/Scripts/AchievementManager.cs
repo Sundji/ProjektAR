@@ -71,7 +71,7 @@ public class AchievementManager : MonoBehaviour
             DBManager.AddExperience(2000);
             OnlineDataSave saveData = (new GameObject("save2")).AddComponent<OnlineDataSave>();
             saveData.CallSavePlayerData();
-            Destroy(gameObject);
+            Destroy(saveData.gameObject);
         }
     }
 
