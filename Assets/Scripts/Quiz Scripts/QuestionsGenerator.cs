@@ -87,8 +87,8 @@ public class QuestionsGenerator : MonoBehaviour
                           
             }
 
-            score.text = "Score: " + AnswerButton.correctAns + "/" + cntr;
-            experience.text = "Exp: " + AnswerButton.earnedExp;
+            score.text = "Rezultat: " + AnswerButton.correctAns + "/" + cntr;
+            experience.text = "Iskustvo: " + AnswerButton.earnedExp;
 
             
         }
