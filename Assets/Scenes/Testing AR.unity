@@ -720,7 +720,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -80}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 314.4, y: 137}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &231708422
@@ -1282,7 +1282,7 @@ PrefabInstance:
     - target: {fileID: 2774129170976060558, guid: 14fffe00b1f759646b1d16ba69ba6851,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2774129170976060558, guid: 14fffe00b1f759646b1d16ba69ba6851,
         type: 3}
@@ -1374,10 +1374,30 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Resume
       objectReference: {fileID: 0}
+    - target: {fileID: 2774129170438874686, guid: 14fffe00b1f759646b1d16ba69ba6851,
+        type: 3}
+      propertyPath: quitButton
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2774129169734052597, guid: 14fffe00b1f759646b1d16ba69ba6851,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -240
+      value: -125
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774129170438874682, guid: 14fffe00b1f759646b1d16ba69ba6851,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -250
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774129170255156702, guid: 14fffe00b1f759646b1d16ba69ba6851,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774129170255156702, guid: 14fffe00b1f759646b1d16ba69ba6851,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 2774129170255156697, guid: 14fffe00b1f759646b1d16ba69ba6851,
         type: 3}
@@ -1393,11 +1413,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: Kviz
-      objectReference: {fileID: 0}
-    - target: {fileID: 2774129170438874686, guid: 14fffe00b1f759646b1d16ba69ba6851,
-        type: 3}
-      propertyPath: quitButton
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14fffe00b1f759646b1d16ba69ba6851, type: 3}
@@ -1789,7 +1804,7 @@ RectTransform:
   - {fileID: 210585479}
   - {fileID: 1919575322}
   m_Father: {fileID: 989713695}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2353,7 +2368,7 @@ PrefabInstance:
     - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
@@ -2373,7 +2388,7 @@ PrefabInstance:
     - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 6.0999756
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
@@ -2383,12 +2398,12 @@ PrefabInstance:
     - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 55
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 55
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
@@ -2423,17 +2438,17 @@ PrefabInstance:
     - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 5.5944057
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6058406545129572200, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
@@ -2443,7 +2458,7 @@ PrefabInstance:
     - target: {fileID: 6058406544065882859, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.39999962
+      value: 0.40000153
       objectReference: {fileID: 0}
     - target: {fileID: 6058406544065882859, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
@@ -3012,7 +3027,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 989713695}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -3211,11 +3226,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 1047150343}
   - {fileID: 570935078}
   - {fileID: 945850609}
   - {fileID: 692891390}
   - {fileID: 500621208}
-  - {fileID: 1047150343}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3568,7 +3583,7 @@ PrefabInstance:
     - target: {fileID: 2238044280319445652, guid: 1bc905c1651c9f14d9f12219bdc8ad94,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2238044280319445652, guid: 1bc905c1651c9f14d9f12219bdc8ad94,
         type: 3}
@@ -3633,6 +3648,16 @@ PrefabInstance:
     - target: {fileID: 2238044280319445652, guid: 1bc905c1651c9f14d9f12219bdc8ad94,
         type: 3}
       propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2238044280319445652, guid: 1bc905c1651c9f14d9f12219bdc8ad94,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2238044280319445652, guid: 1bc905c1651c9f14d9f12219bdc8ad94,
+        type: 3}
+      propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2238044280319445672, guid: 1bc905c1651c9f14d9f12219bdc8ad94,
@@ -5928,27 +5953,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Model: BiljnaStanica
   Lesson: EukariotskeStanice
-  About: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sodales,
-    dolor quis porta aliquam, nisi lorem faucibus nulla, id tincidunt sem diam et
-    justo. Pellentesque bibendum tempor tellus eu venenatis. Vestibulum aliquet dignissim
-    nibh, non accumsan ipsum rhoncus sit amet. Integer enim ipsum, pellentesque in
-    malesuada eu, vehicula in tellus. Vivamus auctor urna eu elit bibendum sollicitudin.
-    Nam quam quam, pellentesque sed erat eu, porta aliquam ligula. Donec rutrum ullamcorper
-    urna et pretium. Donec iaculis euismod tortor nec lobortis. Vestibulum enim tellus,
-    pulvinar pharetra tincidunt pretium, lobortis eget sem.  Vivamus laoreet lectus
-    sed dolor dictum faucibus. Cras at consequat orci. Nulla tincidunt massa sit amet
-    congue gravida. Etiam quam dolor, cursus vel orci molestie, consequat vehicula
-    risus. Etiam imperdiet a eros at porttitor. Aliquam aliquam magna quis massa facilisis,
-    a luctus sem ultricies. Integer quis augue quis sem semper consequat sed eget
-    eros.  Suspendisse eu viverra erat. Sed quis dapibus odio. Pellentesque risus
-    justo, hendrerit vel pharetra a, vestibulum nec ligula. Sed in lectus venenatis,
-    interdum magna vel, egestas orci. Nulla facilisi. In faucibus nisl sit amet porta
-    ullamcorper. Phasellus rhoncus vehicula dolor quis aliquam. Integer sit amet volutpat
-    metus. Donec a tempor turpis, et convallis enim. Sed ac tempor arcu, ut aliquam
-    velit. Aenean non orci a justo auctor eleifend. Aenean ac justo at tortor placerat
-    lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempor
-    massa vitae nisl tempus, sit amet placerat elit dapibus. Ut interdum tellus in
-    lectus ullamcorper lacinia. Phasellus venenatis nisl at imperdiet aliquet.
+  About: "Mitohondrij je stani\u010Dna organela eukariotskih stanica koja slu\u017Ei
+    kao izvor stani\u010Dne energije. Sastoji se od dvije membrane, od kojih je vanjska
+    relativno napeta, unutarnja membrana koja sadr\u017Ei enzime i proteine naborana
+    je da bi joj se pove\u0107ala povr\u0161ina i tako pove\u0107ala mogu\u0107nost
+    stvaranja ATP-a."
 --- !u!43 &2008803267
 Mesh:
   m_ObjectHideFlags: 0

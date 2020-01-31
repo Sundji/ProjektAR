@@ -56,19 +56,19 @@ public class QuestionsGenerator : MonoBehaviour
             string lecturename = LectureOnClick.lecture;
             string leaderboardID = "";
 
-            if (lecturename.Equals("Lekcija 1"))
+            if (lecturename.Equals("Lekcija1"))
             {
                 leaderboardID = "leaderboard1";
             }
-            else if (lecturename.Equals("Lekcija 2"))
+            else if (lecturename.Equals("Lekcija2"))
             {
                 leaderboardID = "leaderboard2";
             }
-            else if (lecturename.Equals("Lekcija 3"))
+            else if (lecturename.Equals("Lekcija3"))
             {
                 leaderboardID = "leaderboard3";
             }
-            else if (lecturename.Equals("Lekcija 4"))
+            else if (lecturename.Equals("Lekcija4"))
             {
                 leaderboardID = "leaderboard4";
             }

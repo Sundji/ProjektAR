@@ -873,22 +873,22 @@ PrefabInstance:
     - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 55
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 55
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
@@ -920,6 +920,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058406545129572207, guid: 30c6586e87837eb4b80fc33c6ea686c1,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6058406545129572200, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
       propertyPath: pauseMenuUI
@@ -938,7 +948,7 @@ PrefabInstance:
     - target: {fileID: 6058406544065882859, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.39999962
+      value: 0.40000153
       objectReference: {fileID: 0}
     - target: {fileID: 6058406544065882859, guid: 30c6586e87837eb4b80fc33c6ea686c1,
         type: 3}
@@ -1468,6 +1478,31 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Resume
       objectReference: {fileID: 0}
+    - target: {fileID: 2774129170438874686, guid: 14fffe00b1f759646b1d16ba69ba6851,
+        type: 3}
+      propertyPath: quitButton
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774129169734052597, guid: 14fffe00b1f759646b1d16ba69ba6851,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -125
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774129170438874682, guid: 14fffe00b1f759646b1d16ba69ba6851,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -250
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774129170255156702, guid: 14fffe00b1f759646b1d16ba69ba6851,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774129170255156702, guid: 14fffe00b1f759646b1d16ba69ba6851,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2774129170255156697, guid: 14fffe00b1f759646b1d16ba69ba6851,
         type: 3}
       propertyPath: m_IsActive
@@ -1478,10 +1513,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: Kviz
       objectReference: {fileID: 0}
-    - target: {fileID: 2774129170438874686, guid: 14fffe00b1f759646b1d16ba69ba6851,
+    - target: {fileID: 2774129170754705255, guid: 14fffe00b1f759646b1d16ba69ba6851,
         type: 3}
-      propertyPath: quitButton
-      value: 1
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14fffe00b1f759646b1d16ba69ba6851, type: 3}
@@ -2742,16 +2777,16 @@ RectTransform:
   m_GameObject: {fileID: 1945360669}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.6666665, y: 1.6666665, z: 1.6666665}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 898751852}
   m_Father: {fileID: 1376199559}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -300, y: 8}
-  m_SizeDelta: {x: 100.9, y: 98.9}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 70, y: 30}
+  m_SizeDelta: {x: 100.899994, y: 98.9}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1945360671
 MonoBehaviour:

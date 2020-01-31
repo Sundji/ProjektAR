@@ -1,0 +1,466 @@
+PRIJENOS KROZ STANIČNU MEMBRANU
+
+64. Koja je osnovna razlika između aktivnog i pasivnog prijenosa kod stanične membrane? PITANJE
+Za aktivni prijenos se troši energija. +
+Za pasivni prijenos se ponekad troši energija.
+Nema značajnije razlike.
+Za aktivni prijenos se ponekad ne troši energija.
+
+65. Kako zovemo prijenos kod stanične membrane za koji se troši energija? PITANJE
+Aktivni +
+Pasivni
+Trošni
+Složeni
+
+66. Kako zovemo prijenos kod stanične membrane za koji se ne troši energija? PITANJE
+Aktivni 
+Pasivni +
+Prijenos bez utroška
+Jednostavni
+
+67. Zašto se pri pasivnom transportu kroz staničnu membranu ne troši energija? PITANJE
+Jer se molekule prenose iz otopine gdje ih ima više u otopinu gdje ih ima manje +
+Zbog razlike u električnim potencijalima
+Jer se molekule prenose iz otopine gdje ih ima manje u otopinu gdje ih ima više
+Zbog razlike u gustoći stanične membrane i vodenog okoliša
+
+68. Zašto se pri aktivnom transportu kroz staničnu membranu troši energija? PITANJE
+Jer se molekule prenose iz otopine gdje ih ima više u otopinu gdje ih ima manje
+Zbog razlike u električnim potencijalima
+Jer se molekule prenose iz otopine gdje ih ima manje u otopinu gdje ih ima više +
+Zbog razlike u gustoći stanične membrane i vodenog okoliša
+
+69. Što je od navedenog pasivni prijenos kroz staničnu membranu? PITANJE
+Jednostavna difuzija +
+Fagocitoza
+Endocitoza
+Osmoza
+
+70. Što je od navedenog pasivni prijenos kroz staničnu membranu? PITANJE
+Složena difuzija +
+Fagocitoza
+Endocitoza
+Osmoza
+
+71. Za koju vrstu prijenosa kažemo da je neselektivan prijenos? PITANJE
+Jednostavna difuzija +
+Složena difuzija
+Fagocitoza
+Endocitoza
+
+72. Koje molekule putuje pasivnom difuzijom? PITANJE
+Svaka koja posjeduje koncentracijski gradijent
+Svaka koja može proći kroz dvosloj
+Svaka koja ne posjeduje koncentracijski gradijent i može proći kroz dvosloj +
+Svaka koja posjeduje koncentracijski gradijent i može proći kroz dvosloj
+
+73. Što je jedino nužno za odvijanje jednostavne difuzije? PITANJE
+Postojanje koncentracijskog gradijenta +
+Postojanje nenabijenih bioloških molekula
+Postojanje otopina različitih koncentracija
+Postojanje otopina istih koncentracija
+
+74. Što se prenosi jednostavnom difuzijom? PITANJE
+kisik i ugljikov dioksid +
+ugljikohidrati
+ioni natrija i kalija
+membranski mjehurić
+
+75. Što se prenosi jednostavnom difuzijom? PITANJE
+plinovi +
+ugljikohidrati
+ioni natrija i kalija
+membranski mjehurić
+
+76. Što se prenosi jednostavnom difuzijom? PITANJE
+hidrofobne molekule +
+ugljikohidrati
+ioni natrija i kalija
+membranski mjehurić
+
+77. Što se prenosi jednostavnom difuzijom? PITANJE
+male nenabijene polarne molekule +
+ugljikohidrati
+ioni natrija i kalija
+membranski mjehurić
+
+78. Što se prenosi jednostavnom difuzijom? PITANJE
+voda i etanol +
+ugljikohidrati
+ioni natrija i kalija
+membranski mjehurić
+
+79. Što se prenosi jednostavnom difuzijom? PITANJE
+benzen +
+ugljikohidrati
+ioni natrija i kalija
+membranski mjehurić
+
+80. Što se sve prenosi jednostavnom difuzijom? PITANJE
+Plinovi
+Plinovi i male nenabijene polarne molekule
+Plinovi i hidrofobne molekule
+Plinovi, male nenabijene polarne molekule i hidrofobne molekule +
+
+81. Što se prenosi jednostavnom difuzijom? PITANJE
+voda i ioni natrija
+voda i ioni kalija
+voda i benzen +
+etanol i ioni natrija
+
+82. Kako zovemo način prijenosa molekula s pomoću prijenosnih bjelančevina? PITANJE
+Jednostavna difuzija 
+Složena difuzija
+Olakšana difuzija +
+Endocitoza
+
+83. Što sve putuje pomoću olakšane difuzije? PITANJE
+Ugljikohidrati
+Aminokiseline
+Aminokiseline i nukleotidi
+Aminokiseline i ioni
+Ugljikohidrati, aminokiseline, nukleotidi i ioni +
+
+84. Što se prenosi olakšanom difuzijom? PITANJE
+voda i etanol 
+ugljikohidrati +
+ioni natrija i kalija
+membranski mjehurić
+
+85. Što se prenosi olakšanom difuzijom? PITANJE
+benzen 
+etanol
+ioni +
+membranski mjehurić
+
+86. Što se prenosi olakšanom difuzijom? PITANJE
+hidrofobne molekule
+jednostavne nenabijene polarne molekule
+aminokiseline i nukleotidi +
+plinovi
+
+87. Što se prenosi olakšanom difuzijom? PITANJE
+ioni +
+hidrofobne molekule
+voda i etanol 
+aminokiseline i benzen
+
+88. Što se prenosi olakšanom difuzijom? PITANJE
+Ioni i voda
+Aminokiseline i benzen
+Ugljikohidrati i etanol
+Nukleotidi i glukoza
+
+89. Koje dvije vrste bjelančevina razlikujemo u olakšanoj difuziji? PITANJE
+Kanalne i integralne
+Kanalne i periferne
+Integralne i periferne
+Kanalne i nosače +
+
+90. Koje dvije vrste bjelančevina razlikujemo u olakšanoj difuziji? PITANJE
+Transmembranske i nosače
+Kanalne i periferne
+Kanalne i nosače + 
+Periferne i transmembranske
+
+91. Kako se zovu bjelančevine koje oblikuju kanale kroz staničnu membranu? PITANJE
+Nosači
+Kanalne +
+Periferne
+Integralne
+
+92. Što prolazi kroz kanale u staničnoj membrani? PITANJE
+Bilo koja polarna molekula
+Male polarne molekule +
+Velike polarne molekule
+Polarne molekule srednje veličine
+
+93. Koje bjelančevine kod olakšane difuzije na sebe vežu molekule? PITANJE
+Nosači +
+Kanalne 
+Periferne
+Integralne
+
+94. Što pomoću kanalnih bjelančevina ulazi u stanice našeg organizma? PITANJE
+Ugljikohidrati
+Aminokiseline
+Nukleotidi
+Ioni +
+
+95. Kako zovemo otopine koje imaju jednaku koncentraciju otopljenih tvari? PITANJE
+Izotonične +
+Hipotonične 
+Hipertonične
+Tropotonične
+
+96. Kako zovemo otopinu koja ima višu koncentraciju otopljene tvari od druge otopine? PITANJE
+Izotonična
+Hipotonična
+Hipertonična +
+Tropotonična
+
+97. Kako zovemo otopinu koja ima nižu koncentraciju otopljene tvari od druge otopine? PITANJE
+Izotonična
+Hipotonična +
+Hipertonična 
+Tropotonična
+
+98. Što je hipotonična otopina? PITANJE
+Otopina koja ima višu koncentraciju otopljene tvari od druge otopine
+Otopina koja ima nižu koncentraciju otopljene tvari od druge otopine +
+Otopina koja ima istu koncentraciju otopljene tvari kao druga otopina
+Taj pojam ne postoji
+
+99. Što je hipertonična otopina? PITANJE
+Otopina koja ima višu koncentraciju otopljene tvari od druge otopine +
+Otopina koja ima nižu koncentraciju otopljene tvari od druge otopine 
+Otopina koja ima istu koncentraciju otopljene tvari kao druga otopina
+Taj pojam ne postoji 
+
+100. Što je izotonična otopina? PITANJE
+Otopina koja ima višu koncentraciju otopljene tvari od druge otopine 
+Otopina koja ima nižu koncentraciju otopljene tvari od druge otopine 
+Otopina koja ima istu koncentraciju otopljene tvari kao druga otopina +
+Taj pojam ne postoji 
+
+101. Što je tropotonična otopina? PITANJE
+Otopina koja ima višu koncentraciju otopljene tvari od druge otopine 
+Otopina koja ima nižu koncentraciju otopljene tvari od druge otopine 
+Otopina koja ima istu koncentraciju otopljene tvari kao druga otopina +
+Taj pojam ne postoji +
+
+102. Kakav je smjer putovanja otapala (vode) kod hipotonične otopine? PITANJE
+Difundira u stanicu +
+Difundira iz stanice
+Nema gibanja
+Difundira u i iz stanice (obostrano)
+
+103. Kakav je smjer putovanja otapala (vode) kod hipertonične otopine? PITANJE
+Difundira u stanicu 
+Difundira iz stanice +
+Nema gibanja
+Difundira u i iz stanice (obostrano)
+
+104. Kakav je smjer putovanja otapala (vode) kod izotonične otopine? PITANJE
+Difundira u stanicu 
+Difundira iz stanice
+Nema gibanja +
+Difundira u i iz stanice (obostrano)
+
+105. Što podrazumijevamo kada kažemo da otapalo putuje niz vlastiti koncentracijski gradijent? PITANJE
+Putovanje iz hipotonične u hipertoničnu otopinu +
+Putovanje iz hipertonične u hipotoničnu otopinu
+Jednostavnu difuziju
+Aktivni prijenos
+
+106. Kako zovemo difuziju molekula otapala između dviju otopina različitih koncentracija koje su odijeljene selektivno propusnom membranom? PITANJE
+Osmoza +
+Pasivna difuzija
+Apsorpcija
+Adsorpcija
+
+107. Kakva je slana otopina prema citoplazmi eukariotske stanice? PITANJE
+Hipertonična +
+Hipotonična
+Izotonična
+Tropotonična
+
+108. Kako zovemo odvajanje stanične membrane od stijenke zbog smanjenja volumena citoplazme? PITANJE
+Plazmoliza +
+Deplazmoliza
+Citoplazmoza
+Citopatologija
+
+109. Kako zovemo priljepljivanje stanične membrane o stijenku zbog povećanja volumena citoplazme? PITANJE
+Plazmoliza 
+Deplazmoliza +
+Citoplazmoza
+Citopatologija
+
+110. Kako se odnosi koncentracija kalijevih iona? PITANJE
+Veća je u citoplazmi stanice nego izvan stanice +
+Manja je u citoplazmi stanice nego izvan stanice
+Jednaka je u citoplazmi stanice kao i izvan stanice
+Niti jedan odgovor nije točan
+
+111. Kako se odnosi koncentracija natrijevih iona? PITANJE
+Veća je u citoplazmi stanice nego izvan stanice 
+Manja je u citoplazmi stanice nego izvan stanice +
+Jednaka je u citoplazmi stanice kao i izvan stanice
+Niti jedan odgovor nije točan
+
+112. Kako se odnosi koncentracija kalijevih iona? PITANJE
+Veća je izvan stanice nego u citoplazmi stanice
+Manja je izvan stanice nego u citoplazmi stanice +
+Jednaka je izvan stanice kao i u citoplazmi stanice
+Niti jedan odgovor nije točan
+
+113. Kako se odnosi koncentracija natrijevih iona? PITANJE
+Veća je izvan stanice nego u citoplazmi stanice +
+Manja je izvan stanice nego u citoplazmi stanice 
+Jednaka je izvan stanice kao i u citoplazmi stanice
+Niti jedan odgovor nije točan
+
+114. Kako funkcionira natrij/kalijeva crpka? PITANJE
+Iz stanice se izbacuju natrijevi, a ulaze kalijevi ioni +
+Iz stanice se izbacuju kalijevi, a ulaze natrijevi ioni
+Energija za izbacivanje natrijevih iona osigurava se razgradnjom kalijevih iona
+Engergija za izbacivanje kalijevih iona osigurava se razgradnjom natrijevih iona
+
+115. Razgradnjom čega eukariotska stanica osigurava energiju potrebnu za aktivni prijenos? PITANJE
+ATP-a +
+ADP-a
+BDP-a
+AGP-a
+
+116. Što je endocitoza? PITANJE
+Unos makromolekula i drugih stanica u stanicu +
+Izbacivanje molekula iz stanice
+Pretvaranje stanice u endosporu
+Sintetiziranje endoplazmatskog retikuluma
+
+117. Što je egzocitoza? PITANJE
+Unos makromolekula i drugih stanica u stanicu 
+Izbacivanje molekula iz stanice +
+Pretvaranje stanice u endosporu
+Sintetiziranje egzoplazmatskog retikuluma
+
+118. Kako zovemo izbacivanje molekula iz eukariotske stanice? PITANJE
+Endocitoza
+Fagocizoza
+Pinocitoza
+Egzocitoza +
+
+119. Što obuhvaća endocitoza? PITANJE
+Egzocitozu i fagocitozu
+Egzocitozu i pinocitozu
+Pinocitozu i fagocitozu
+Pinocitozu
+
+120. Koji je drugi naziv za stanično napajanje? PITANJE
+Endocitoza
+Fagocizoza
+Pinocitoza +
+Egzocitoza 
+
+121. Koje je drugi naziv za stanično proždiranje? PITANJE
+Endocitoza
+Fagocizoza +
+Pinocitoza 
+Egzocitoza
+
+122. Pri endocitozi i egzocitozi tvari ulaze i izlaze iz stanice putem: PITANJE
+Membranskog mjehurića +
+Koncentracijskog gradijenta
+Membranskog gradijenta
+Staničnog gradijenta
+
+CITOPLAZMATSKI ORGANELI I STRUKTURE
+
+123. Koji postotak staničnog volumena čini nukleus u eukariotskim stanicama? PITANJE
+5%
+10% +
+15%
+20%
+
+124. Kolika većina eukariotskih stanica ima jezgara? PITANJE
+Jednu +
+Dvije
+Tri
+Četiri
+
+125. Koji znanstvenik je imenovao jezgru? PITANJE
+R. Brown +
+A. Fleming
+R. Hooke
+T. Schwann
+
+126. Kojeg je promjera jezgra eukariotske stanice? PITANJE
+5-10 mikrometara
+10-20 miktrometara +
+20-30 mikrometara
+1-5 mikrometara
+
+127. Koje godine je imenovana jezgra eukariotske stanice? PITANJE
+1831. +
+1921.
+1905.
+1748.
+
+128. Što ispunjava unutrašnjost jezgre eukariotske stanice? PITANJE
+Nukleoplazma +
+Citoplazma
+Ribonukleinska kiselina
+Fosfolipidi
+
+129. Što čini glavni dio unutrašnjosti jezgre eukariotske stanice? PITANJE
+Kromatin +
+Histamin
+Miozin
+Protamin
+
+130. Kromatin je kompleks: PITANJE
+DNA i histona +
+DNA i histamina
+DNA i metionina
+DNA i kodona
+
+131. Što se događa s kromatinom na početku diobe stanice? PITANJE
+Spiralizira se oblikujući kromosome +
+Spiralizira se oblikujući DNA lanac
+Odmotava se razbijajući DNA lanac na 2 dijela
+Udvostručava kromosome
+
+132. Od čega je građen kromosom? PITANJE
+DNA i histona +
+Kromatina i RNA
+Kromatina i histamina
+Kromatina i kodona
+
+133. Koliko membrana ima jezgrina ovojnica eukariotske stanice? PITANJE
+1
+2 +
+3
+5
+
+134. Jezgrine membrane eukariotske stanice građene su kao: PITANJE
+Stanična stijenka
+Stanična membrana +
+Jezgrine membrane prokariotske stanice
+Citomembranski sustav
+
+135. Što je jezgra? PITANJE
+Kontrolni centar za sve što se događa u stanici +
+Sustav spljoštenih membranskih vrećica
+Organel obavijen jednostrukom membranom
+Tvornica energije
+
+136. Što se odvija u jezgri eukariotske stanice? PITANJE
+Transkripcija +
+Translacija
+Mejoza
+Mitoza
+
+137. Što je transkripcija? PITANJE
+Prepisivanje nasljedne upute s DNA na mRNA +
+Prijenos aminokiselina do ribosoma tijekom sinteze bjelančevina
+Prevođenje upute s mRNA u slijed aminokiselina u citoplazmi na ribosomu
+Umnoživanje satelitne RNA
+
+138. Što je jezgrica? PITANJE
+Nakupina RNA, DNA i bjelančevina nužnih za sintezu lizosoma
+Nakupina DNA i bjelančevina nužnih za sintezu ribosoma
+Nakupina RNA, DNA i bjelančevina nužnih za sintezu ribosoma +
+Nakupina DNA i bjelančevina nužnih za sintezu lizosoma
+
+139. Koliko jezgrica može biti u jezgri eukariotske stanice? PITANJE
+Jedna ili više +
+Dvije ili više
+Tri ili više
+Četiri ili više
+
+140. Koje su veličine jezgrice? PITANJE
+1-5 mikrometara +
+5-10 mikrometara
+5-10 pikometara
+5-10 nanometara

@@ -1,0 +1,381 @@
+﻿ORGANIZACIJA EUKARIOTSKE STANICE
+
+1. Prije približno koliko milijardi godina su se razvili eukarioti? PITANJE
+3,7
+2,7 + 
+3,1
+4,6
+
+2. Kako se objašnjava postanak energetski značajnih organela kod eukariota? PITANJE
+Endosimbiontskom teorijom +
+Teorijom evolucije
+Abiogenezom
+Britten-Davidsonovim modelom
+
+3. Kako su organeli kod eukariota nastali prema endosimbiontskoj teoriji? PITANJE
+Razdvajanjem genetskog materijala eukariota
+Ulaskom virusa u pretke eukariotske stanice
+Genetskim mutacijama kroz generacije
+Ulaskom prokariota u pretke eukariotske stanice +
+
+4. Koje veličine u prosjeku mogu biti eukarioti? PITANJE
+10 do 100 mikrometara +
+10 do 100 pikometara
+5 do 10 mikrometara
+5 do 10 pikometara
+
+5. Koja bakterija bi mogla biti "predak" mitohondrija? PITANJE
+Aerobna bakterija +
+Cijanobakterija
+Anaerobna bakterija
+Escherichia coli
+
+6. Koja bakterija bi mogla biti "predak" kloroplasta? PITANJE
+Aerobna bakterija 
+Cijanobakterija +
+Anaerobna bakterija
+Escherichia coli
+
+7. Koji eukariot je veličine prosječne bakterije? PITANJE
+Zelena alga +
+Escherichia coli
+Živčane stanice
+Spolne stanice
+
+8. Čime je unutrašnjost životinjske eukariotske stanice odijeljena od okoliša? PITANJE
+Dvoslojnom staničnom membranom +
+Jednoslojnom staničnom membranom 
+Staničnom stijenkom
+Mureinskim omotačem
+
+9. Od čega je građena stanična stijenka biljnih stanica? PITANJE
+Fosfolipida
+Mureina
+Celuloze +
+Kazeina
+
+10. Kakvog su oblika biljne stanice? PITANJE
+Različitih
+Okruglog
+Eliptičnog
+Kvadratnog +
+
+11. Po čemu se citoplazma eukariota razlikuje od citoplazme prokariota? PITANJE
+Podijeljena je membranama u odjeljke +
+Sadrži jezgru
+Obavijena je troslojnom staničnom membranom
+Gušća je
+
+12. Što je zadaća citomembranskog sustava kod eukariota? PITANJE
+Prijenos tvari +
+Zaštita stanice
+Pokretanje procesa mitoze
+Vezanje kisika
+
+13. Koje stanične strukture nalazimo kod eukariota? PITANJE
+Eukarioti imaju samo organele, ne strukture
+Ribosome +
+Kromosome
+Lizosome
+
+14. Koja je razlika između stanične strukture i organela? PITANJE
+Organeli nisu omeđeni membranom
+Organeli su omeđeni membranom +
+Organeli su uvijek bar 10 puta veći
+Strukture se ne nalaze u citoplazmi
+
+15. Gdje se proteže stanični kostur u eukariota? PITANJE
+Kroz staničnu stijenku
+Kroz staničnu membranu
+Između slojeva stanične membrane
+Kroz citoplazmu +
+
+16. Što je citoskelet? PITANJE
+Očvrsnula citoplazma
+Mreža bjelančevinastih vlakana +
+Zalutali djelić stanične membrane
+Evolucijski relikt
+
+17. Što je citoskeletoza? PITANJE
+Stvaranje citoskeleta
+Razgradnja citoskeleta
+Prijenos citoskeleta između 2 eukariota
+Izmišljen pojam +
+
+18. Kako je organiziran citoskelet? PITANJE
+U cjevčice i mikrotubuluse
+U vlakanca i mikrofilamente
+U cjevčice i vlakanca +
+U mikrotubuluse i mikrofilamente
+
+19. Što određuje oblik stanice? PITANJE
+Raspored citomembranskih bjelančevina +
+Raspored citoskeletnih bjelančevina
+Raspored staničnih organela
+Raspored staničnih organela i struktura
+
+20. Koja je specifična citoskeletna struktura važna za diobu stanice? PITANJE
+Centrosom +
+Ribosom
+Lizosom
+Kromosom
+
+21. Od koliko centriola je građen centrosom? PITANJE
+2 +
+3
+4
+6
+
+22. Gdje se nalaze centrosomi u stanici koja se dijeli? PITANJE
+Svaki na jednom kraju diobenog vretena +
+Svaki na jednom kraju citoskeleta
+Svaki na jednom kraju jezgre
+Svaki na jednom kraju mejoznog kanala
+
+23. Koja je razlika bičeva eukariotske stanice prema prokariotskoj? PITANJE
+Prokariotske stanice nemaju bičeve
+Nema razlike
+Izgrađene su od citoskeletnih bjelančevina +
+Dio su stanične stijenke kod biljnih stanica
+
+24. Koje su stanice s bičem u čovjeka? PITANJE
+Jajnici
+Spermiji +
+Neuroni
+Golgijeve stanice
+
+25. Kako zovemo tekući dio citoplazme bez organela i struktura? PITANJE
+Citotekućina
+Citotonik
+Citosol + 
+Citokatonik
+
+26. Koji je najbitniji organel eukariotske stanice? PITANJE
+Citoplazma 
+Jezgra +
+Golgijev aparat
+Mitohondrij
+
+27. Čime je omeđena jezgra eukariota? PITANJE
+Citoplazmom
+Dvostrukom ovojnicom +
+Jednostrukom ovojnicom
+Fosfolipidskim vlaknima
+
+28. Što se nalazi u unutrašnjosti jezgre eukariota? PITANJE
+DNA +
+Ribosomi
+Ribonukleinska zrnca
+Citosol
+
+29. Kakva je eukariotska molekula DNA? PITANJE
+Jednolančana
+Gola
+Dvolančana +
+Atomarna
+
+30. Koliko puta više od prokariotske DNA može sadržavati eukariotska DNA? PITANJE
+1000 +
+10 000
+Milijun
+100 000
+
+31. Kako postoji DNA u jezgri eukariota? PITANJE
+Golo, samostalno
+U kompleksu sa specifičnim bjelančevinama +
+Ulančano sa ribonukleinskom kiselinom
+Ulančano sa ribonukleinskim zrncima
+
+GRAĐA STANIČNE MEMBRANE
+
+32. Zašto staničnu membranu još nazivamo plazma-membranom? PITANJE
+Jer sadrži plazmide
+Jer obavija citoplazmu +
+Jer omogućuje razmjenu plazme
+Jer ispušta višak plazmida
+
+33. Što je s vanjske i unutrašnje stane stanične membrane eukariota? PITANJE
+Citoplazma
+Vodeni okoliš +
+Stanična stijenka
+Fosfolipidni sloj
+
+34. Kako su okrenuti nepolarni hidrofobni repovi u staničnoj membrani eukariota? PITANJE
+Prema citoplazmi
+Jedan prema drugome
+Prema vodenom okolišu
+Prema staničnoj stijenci
+
+35. Od čega su građeni fosfolipidi? PITANJE
+Od hidrofobne glave i hidrofilnih repova
+Od hidrofilne glave i hidrofobnih repova + 
+Od hidrofilne glave i hidrofilnih repova
+Od hidrofobne glave i hidrofobnih repova
+
+36. Kako su okrenute polarne hidrofilne glave u staničnoj membrani eukariota? PITANJE
+Prema citoplazmi
+Jedan prema drugome
+Prema vodenom okolišu +
+Prema jezgri
+
+37. Koji je model strukture membrane eukariota i danas prihvaćen? PITANJE
+Model tekućeg mozaika +
+Model željezničke pruge
+Gorter-Grendel model
+Davson-Danielli model
+
+38. Koji su znanstvenici predložili model stanične membrane eukariota koji je i danas prihvaćen? PITANJE
+Gorter i Grendel
+Davson i Danielli
+Singer i Nicolson +
+Overton i Langmuir
+
+39. Za što je kod stanične membrane eukariota bitna hidrofobnost fosfolipida? PITANJE
+Za prijenos molekula između dviju vodenih otopina +
+Za odbijanje ulaska vode
+Za prijenos hidrofobnih molekula
+Za krutu strukturu membrane
+
+40. Kako se uglavnom kreću fosfolipidne molekule u dvosloju? PITANJE
+Vertikalno se premještaju unutar dvosloja
+Guraju se prema van iz rubova dvosloja
+Stišču se prema unutrašnjosti dvosloja
+Bočno se premještaju unutar dvosloja +
+
+41. Kako nazivamo premještanje fosfolipida iz jednog sloja u drugi? PITANJE
+Skok
+Molekularni skok
+Fosfolipidsko ravnanje
+Flip-flop
+
+42. Pomoću kojeg enzima se odvija premještanje fosfolipida iz jednog sloja u drugi? PITANJE
+Flipaze +
+Amilaze
+Lipaze
+Proteaze
+
+43. Zbog specifičnog većinskog kretanja fosfolipida, za membranu kažemo da je: PITANJE
+trodimenzionalna struktura
+dvoslojna struktura
+dvodimenzionalna struktura +
+čvrsta struktura
+
+44. Što izgrađuje staničnu membranu eukariota? PITANJE
+Bjelančevine i ugljikohidrati
+Bjelančevine, ugljikohidrati i fosfolipidi
+Bjelančevine, ugljikohidrati i kolesterol
+Bjelančevine, ugljikohidrati, fosfolipidi i kolesterol +
+
+45. Koje su najbrojnije molekule u membrani eukariota? PITANJE
+Bjelančevine
+Ugljikohidrati
+Lipidi +
+Citoplazmidi
+
+46. Zašto je kolesterol bitan? PITANJE
+Sprječavanje raspadanja stanica na visokim ili niskim temperaturama +
+Izgradnju stanične stijenke
+Proizvodnju energije unutar stanice
+Regulaciju šećera
+
+47. Kako kolesterol održava membranu pokretljivom na niskoj temperaturi? PITANJE
+Smanjuje pokretljivost fosfolipida u dvosloju
+Povećava pokretljivost fosfolipida u dvosloju +
+Daje energiju fosfolipidima
+Povećava propusnost membrane
+
+48. Kako kolesterol održava membranu pokretljivom na visokoj temperaturi? PITANJE
+Smanjuje pokretljivost fosfolipida u citoplazmi
+Povećava pokretljivost fosfolipida u dvosloju
+Daje energiju fosfolipidima
+Smanjuje propusnost membrane +
+
+49. Kako razlikujemo bjelančevine u staničnoj membrani eukariota? PITANJE
+Prema molekularnoj složenosti
+Prema smještaju u fosfolipidnom sloju +
+Prema svojstvu hidrofobnosti
+Prema brojnosti
+
+50. Kako zovemo bjelančevine u staničnoj membrani eukariota? PITANJE
+Periferne i integralne +
+Jednolančane i mnogolančane
+Amfoterne i ezoterne
+Kuglaste i vlaknaste
+
+51. Koliki postotak membranskih bjelančevina čine integralne bjelančevine? PITANJE
+50-60%
+60-70%
+70-80% +
+80-90%
+
+52. Što je specifičnost transmembranskih bjelančevina? PITANJE
+Prolaze kroz cijeli dvosloj +
+Uronjene su u jedan dio dvosloja
+Reguliraju pokretljivost fosfolipida u dvosloju
+Služe prepoznavanju između stanica
+
+53. Koje bjelančevine u staničnoj membrani služe prepoznavanju između stanica? PITANJE
+Periferne +
+Integralne
+Transmembranske
+Amfoterne
+
+54. Periferne bjelančevine su okrenute prema: PITANJE
+citoplazmi ili izvanstaničnoj tekućini +
+citoplazmi
+izvanstaničnoj tekućini
+unutarnjem sloju dvosloja
+
+55. Koje su bjelančevine u staničnoj membrani eukariota okrenute prema citoplazmi? PITANJE
+Periferne +
+Integralne
+Transmembranske
+Amfoterne
+
+56. Koje su bjelančevine u staničnoj membrani eukariota okrenute prema izvanstaničnoj tekućini? PITANJE
+Periferne +
+Integralne
+Transmembranske
+Amfoterne
+
+57. Koje su bjelančevine stanične membrane topljive u vodi? PITANJE
+Periferne +
+Integralne
+Transmembranske
+Amfoterne
+
+58. Koje bjelančevine stanične membrane nisu topljive u vodi? PITANJE
+Periferne 
+Integralne +
+Ezoterne
+Amfoterne
+
+59. Koji postotak ugljikohidrata sadrže stanične membrane eukariota? PITANJE
+1-5%
+5-10% +
+10-15%
+15-20%
+
+60. Po građi, kakvi ugljikohidrati prevladavaju u staničnoj membrani eukariota? PITANJE
+Monosaharidi
+Disaharidi
+Oligosaharidi
+Polisaharidi +
+
+61. S čime se ugljikohidrati u staničnoj membrani mogu vezati? PITANJE
+S lipidima
+S proteinima
+S lipidima i proteinima +
+S drugim ugljikohidratima
+
+62. Kako nazivamo spoj ugljikohidrata i bjelančevina? PITANJE
+Glikoproteini +
+Glikolipidi
+Glikogeni
+Kolageni
+
+63. Kako nazivamo spoj ugljikohidrata i lipida? PITANJE
+Glikoproteini 
+Glikolipidi +
+Glikogeni
+Kolageni
